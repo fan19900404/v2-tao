@@ -1,0 +1,53 @@
+// 公用的样式
+
+// 关于字体 与支付宝设计稿上的一致
+$font-size-xs: .12rem; // T5
+$font-size-sm: .13rem; // T4
+$font-size-md: .14rem; // T3
+$font-size-lg: .16rem; // T2
+$font-size-xl: .2rem; // T1
+
+
+// 关于颜色
+$white: #ffffff; // 仅用于标题,按钮和深色背景中
+$primary: #00c1b3; // 项目的主色调
+$sky-blue: #329dff; // 一些蓝色按钮的颜色
+$yellow: #ffff00; // 个人中心一些按钮使用
+$black: #000000; // 黑色
+$dark: #333333; // 标题,输入标签,输入内容
+$words: #666666; // tab文字,文本
+$information: #a5a5a5; // 小提示,列表下方说明
+$hint: #cccccc; // 暗提示
+$primary-border: #e5e5e5; // 普通的间隔
+$stress-border: #e1e1e1; // 头部,底部菜单的边框颜色
+$primary-bgc: #f5f5f9; // 页面的背景色
+// 下面是支付宝的样式暂时用不到
+$link: #00aaee; // 可点击链接色
+$stress: #ff8208; // 重点提示色
+$notice: #f85800; // 用于公告
+
+// 关于弹窗的按钮颜色与自体大小
+$dialog-dark: #666666;
+$dialog-border-dark: #e8e8e8;
+$dialog-font-size: .14rem;
+
+// 关于通知
+$notice: #fff391;
+$notice-words: #f85800;
+
+// 关于底部菜单兰
+$footer-words: #888888;
+$footer-words-text: 0.1rem;
+
+// 关于滚动的通知消息
+$scroll-msg-color: #666666;
+
+// 关于游戏支付
+
+// v2.1修改
+$btn-white-bg: #ffffff;
+$btn-white-press-bg: #f8f8f8;
+$btn-green-bg: #00c1b3;
+$btn-green-press-bg: #00ada0;
+
+

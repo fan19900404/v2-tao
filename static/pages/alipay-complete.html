@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta class="tao-you-meta" name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no">
+  <title>支付完成</title>
+</head>
+<body>
+<script>
+  var win = window.top;
+  console.warn('alipay-complete: game:recharge@success');
+  win.postMessage(
+    {action: 'game:recharge@success'},
+    "*"
+  );
+  console.warn('alipay-complete: game:recharge@goback');
+  win.postMessage(
+    {action: 'game:recharge@goback'},
+    "*"
+  )
+</script>
+</body>
+</html>

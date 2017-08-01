@@ -1,0 +1,80 @@
+.carousel__wrapper .swipe-indicators {
+  bottom: 0;
+}
+.carousel__wrapper .swipe-indicators .swipe-indicator {
+  background-color: #000 !important;
+  background: #000!important;
+  opacity: .7 !important;
+
+}
+.carousel__wrapper .swipe-indicators .swipe-indicator.active {
+  background-color: #ff4a4a!important;
+  background:#ff4a4a!important;
+}
+
+/* 文字部分 */
+.GOODS-GRAPHIC-DETAIL__detail-content p {
+  padding: .5rem 1rem 0 1rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* 图片部分 */
+.GOODS-GRAPHIC-DETAIL__detail-content .GOODS-GRAPHIC-DETAIL__imgInP {
+  padding: 0 !important;
+  box-sizing: border-box;
+}
+.GOODS-GRAPHIC-DETAIL__detail-content .GOODS-GRAPHIC-DETAIL__imgInP img{
+  display: block;
+  width: 100%;
+}
+
+/* 淘友助手部分 */
+.taoyou__home__slider .swipe-indicators,
+.taoyou__gamecenter__banner .swipe-indicators
+{
+  position: absolute;
+  padding: 0;
+  bottom: .08rem;
+  left: 50%;
+  box-sizing: border-box;
+  height: .08rem;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+/*.swiper-container-horizontal > .swiper-pagination-bullets.swiper-pagination{
+  bottom: 0;
+}*/
+.taoyou__home__slider .swipe-indicators .swipe-indicator,
+.taoyou__gamecenter__banner .swipe-indicators .swipe-indicator,
+.swiper-pagination .swiper-pagination-bullet
+{
+  background-color: #ffffff;
+  margin-bottom: .08rem;
+  width: .08rem;
+  height: .08rem;
+  opacity: .5;
+}
+.taoyou__home__slider .swipe-indicators .swipe-indicator.active,
+.taoyou__gamecenter__banner .swipe-indicators .swipe-indicator.active,
+.swiper-pagination .swiper-pagination-bullet-active
+{
+  background-color: #ffffff;
+  margin-bottom: .08rem;
+  width: .08rem;
+  height: .08rem;
+  opacity: 1;
+}
+
+.swiper-container .swiper-pagination {
+    opacity: 1;
+    -webkit-transition: opacity 0.1s;
+    transition: opacity 0.1s;
+}
+
+/* 淘友助手 资讯详情部分 */
+.TaoYou-News-Section-Content p {
+  text-align:justify;
+  text-justify:inter-ideograph;
+}

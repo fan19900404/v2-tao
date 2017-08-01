@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>淘游助手</title>
+  <meta class="tao-you-meta" name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no">
+
+  <!--<meta name="viewport" content="initial-scale=0.5, maximum-scale=0.5, minimum-scale=0.5, user-scalable=no">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-title" content="间隔年">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="browsermode" content="application">
+  <meta name="x5-orientation" content="portrait">
+  <meta name="x5-fullscreen" content="true">
+  <meta name="x5-page-mode" content="app">
+  <script>
+    // 微信二次分享的问题
+    try {
+      var wechatParams = '?from=singlemessage&isappinstalled=0';
+      var wechatPayUrlParams = '?payType=wechat&gameId=';
+      var wechatChargeUrlParams = '?chargeType=wechat';
+      if (wechatParams === location.search) {
+        var oldUrl = window.location.href;
+        var newUrl = oldUrl.replace(wechatParams, '');
+        window.location.href = newUrl;
+      }
+      if (location.search.indexOf(wechatPayUrlParams) !== -1) {
+        try {
+          var params = getUrlParams();
+          window.location.href = window.location.origin + '/#/tao-you/game-intro/' + params.gameId;
+        } catch (e) {
+          console.log(e);
+        }
+      }
+      if (location.search.indexOf(wechatChargeUrlParams) !== -1) {
+        window.location.href = window.location.origin + '/#/tao-you/personal-center';
+      }
+    } catch (e) {
+      console.log(e);
+    }
+
+    function getUrlParams() {
+      var url = location.search;
+      var params = new Object();
+      if (url.indexOf("?") != -1) {
+        var str = url.substr(1);
+        strs = str.split("&");
+        for (var i = 0; i < strs.length; i++) {
+          params[strs[i].split("=")[0]] = strs[i].split("=")[1];
+        }
+      }
+      return params;
+    }
+  </script>
+  <link rel="apple-touch-icon" sizes="114x114" href="logo.jpg" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="logo.jpg" />
+  <!-- fix.css -->
+  <link rel="stylesheet" href="/static/css/fix/fix.css?v=2.0">
+  <!-- fix.css -->
+  <link rel="stylesheet" href="/static/css/reset.css?v=2.0">
+  <link rel="stylesheet" href="/static/css/swiper.css?v=2.0">
+  <link id="antui-mark-layout" rel="stylesheet" href="/static/css/common.css?v=2.0">
+  <link rel="stylesheet" href="/static/css/font.css?v=2.0">
+  <link rel="stylesheet" href="/static/icons/tao-you/style.css?v=2.0">
+  <link rel="stylesheet" href="/static/icons/style.css?v=2.0">
+  <link rel="stylesheet" type="text/css" href="/static/lib/LArea/LArea.css?v=2.0">
+  <!-- AntUI -->
+  <link class="antui--taoyou" rel="stylesheet" type="text/css" href="/static/css/antui/antui.css" media="all">
+  <link class="antui--taoyou" rel="stylesheet" type="text/css" href="https://as.alipayobjects.com/g/h5-lib/antui/9.9.0-2/rem/??widget/message.css,widget/page-result.css,widget/popmenu.css,widget/process.css,widget/card.css,widget/article.css,widget/search.css,widget/toast.css"
+    media="all">
+  <meta id="antui-mark" name="full-screen" content="yes">
+  <!-- AntUI -->
+  <script>
+    window.userInfo = {};
+    window.onbeforeunload = function () {
+      //localStorage.clear();
+      localStorage.removeItem('httpStatus');
+      localStorage.removeItem('USER_LOGIN');
+    };
+    // 应用的全局配置
+    window.app_config = {};
+  </script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script src="//res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+  <!-- built files will be auto injected -->
+  <script>
+    ; (function () {
+      if (window != window.top) {
+        //sdk 加载完毕回调
+        window.zmInitSucc = function () {
+          console.log("cp start work");
+          // ZmSdk.getInstance().setFrameDeep(1);
+          //TODO 必须在这里或者该方法调用之后进行 sdk 调用
+          ZmSdk.getInstance().init(function (data) {
+            //初始化成功之后调用其他 sdk 能力 如 获取用户信息、支付、角色上报、设置分/
+            //享信息、分享等…
+            //示例：
+            if (data.retcode === '0') {
+              var userinfo = ZmSdk.getInstance().getUserInfo();
+              console.dir(userinfo);
+            } else if (data.retcode === '1') {
+              //初始化失败处理
+            }
+          });
+        }
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'http://soeasysdk.com/soeasysr/zm_engine_v2.js';
+        // $(script).insertAfter('antui-script');
+        document.body.insertBefore(script, document.getElementById('antui-script'))
+      }
+    })();
+
+  </script>
+  <script src="/static/lib/zepto.min.js?v=2.0"></script>
+
+  <script src="/static/lib/flow.min.js?v=2.0"></script>
+  <script src="/static/lib/fancySelect.js?v=2.0"></script>
+  <script src="/static/lib/noframework.waypoints.min.js?v=2.0"></script>
+  <script src="/static/lib/hammer.min.js?v=2.0"></script>
+  <!--  weixin sdk-->
+  <script src="/static/lib/jweixin.js?v=2.0"></script>
+  <!--  weixin sdk-->
+  <!-- 一些附加的库 -->
+  <script src="/static/lib/layer.js?v=2.0"></script>
+  <script src="/static/lib/utils.js?v=2.0"></script>
+  <script src="/static/lib/LArea/LArea.js?v=2.0"></script>
+  <script src="/static/lib/qrcode/qrcode.js?v=2.0"></script>
+
+  <!-- JiaThis Button BEGIN -->
+  <script>
+    var jiathis_config = {
+      url: "http://1.lly800.com/#/tao-you",
+      title: "我正在玩淘游，你也快来吧~~",
+      summary: "独乐乐不如众乐乐",
+      pic: ""
+    };
+
+  </script>
+  <script src="http://v3.jiathis.com/code/jiathis_m.js?v=2.0"></script>
+  <!-- JiaThis Button END -->
+
+</body>
+
+</html>

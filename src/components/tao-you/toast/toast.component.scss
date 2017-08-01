@@ -1,0 +1,82 @@
+.ap-toast-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ap-toast-container.ap-toast-container--icon {
+  width: 180px;
+  height: 180px;
+  border-radius: 20px;
+  background-color: #1f2337;
+  opacity: .9;
+}
+.ap-toast-icon-container {
+  height: 120px;
+  box-sizing: border-box;
+  padding: 30px 55px 20px;
+  .ap-toast-icon {
+    width: 70px;
+    height: 70px;
+    color: #ffffff;
+    font-size: 70px;
+  }
+}
+.ap-toast-text {
+  text-align: center;
+  color: #ffffff;
+  font-size: .15rem;
+  height: .15rem;
+  /* 字数超出部分截取 */
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+.ap-toast-icon-loading {
+  display: block;
+  animation: loading 1.5s infinite linear;
+}
+
+@keyframes loading {
+  0%{
+    transform:rotate(0deg);
+  }
+  50% {
+    transform:rotate(180deg);
+  }
+  100%{
+    transform:rotate(360deg);
+  }
+}
+
+.ap-toast-container-transition {
+    transition: opacity .3s linear;
+}
+
+.ap-toast-container.ap-toast-container--normal {
+    position: fixed;
+    max-width: 80%;
+    border-radius: 4px;
+    padding: 0.1rem .2133333333333rem;
+    background: rgba(0,0,0,.7);
+    color: #fff;
+    box-sizing: border-box;
+    text-align: center;
+    z-index: 1000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.expand-transition {
+  transition: all .3s ease;
+  opacity: 1;
+}
+
+.expand-enter, .expand-leave {
+  opacity: 0;
+}

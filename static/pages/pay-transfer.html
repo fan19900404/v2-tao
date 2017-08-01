@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>支付页面</title>
+  <meta class="tao-you-meta" name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no">
+  <script src="http://pre.lly800.com/static/lib/iframe/egret-game-helper.js"></script>
+  <script src="http://pre.lly800.com/static/lib/jquery.min.js"></script>
+</head>
+<body>
+<p>支付进行中...</p>
+<script>
+  // 在需要支付的地方
+  var query = getUrlVars();
+  try {
+    if($) {
+      $.ajax({
+        url: 'http://interface.lly800.com/Game/Api/get_order_cache_info',
+        data: {
+          key: query.key,
+          nologin: 1
+        },
+        success: function(data) {
+          if(10000 === data.code) {
+            try {
+              var gameHelper = GameHelper();
+              gameHelper.postMessage(data.result);
+            } catch (e) {
+              console.log(e)
+            }
+          }
+        },
+        dataType: 'json'
+      });
+    }
+  } catch(e) {
+      console.log(e);
+  }
+  // 获取查询参数
+  function getUrlVars()
+  {
+    var vars = [], hash;
+    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for(var i = 0; i < hashes.length; i++)
+    {
+      hash = hashes[i].split('=');
+      vars.push(hash[0]);
+      vars[hash[0]] = hash[1];
+    }
+    return vars;
+  }
+  // 返回到游戏页面
+  window.backToGame = function() {
+      window.history.go(-1);
+  };
+  window.confirmPayResult = function() {};
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+/* 没有领取的 */
+svg.progress-circle.new text {
+  fill: #00c1b3;
+}
+svg.progress-circle.new circle.bg {
+  stroke: #7fe0d9;
+}
+svg.progress-circle.new circle.progress {
+  stroke: #00c1b3;
+  transition: stroke-dashoffset .5s ease-out;
+}
+/* 已经领取的 */
+svg.progress-circle.old text {
+  fill: #cccccc;
+}
+svg.progress-circle.old circle.bg {
+  stroke: #e5e5e5;
+}
+svg.progress-circle.old circle.progress {
+  stroke: #cccccc;
+  transition: stroke-dashoffset .5s ease-out;
+}
+
