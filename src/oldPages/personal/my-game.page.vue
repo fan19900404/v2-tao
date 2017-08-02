@@ -26,7 +26,7 @@
     <template v-if="result.myGameList.length == 0 && showCList">
       <div class="no-data">
         <div class="wrapper text-center">
-          <img src="../../../oldStatic/images/nodata.png" alt="">
+          <img src="../../../static/images/nodata.png" alt="">
           <div class="text-sub margin-top">
             您还没有玩游戏哦~
           </div>

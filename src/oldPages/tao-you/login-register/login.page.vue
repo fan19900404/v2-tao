@@ -4,21 +4,21 @@
     <!-- 登录部分 -->
     <div class="logo-section">
       <div class="logo-fill"></div>
-      <img class="logo-image" src="/oldStatic/images/tao-you/login-register/tao-you-logo.png" alt="">
+      <img class="logo-image" src="/static/images/tao-you/login-register/tao-you-logo.png" alt="">
     </div>
     <!-- 用户输入 -->
     <div class="user-input">
       <!-- 用户手机 -->
       <div class="input-section">
         <span class="input-section-icon">
-          <img src="/oldStatic/images/tao-you/login-register/phone.png" class="input-small-icon">
+          <img src="/static/images/tao-you/login-register/phone.png" class="input-small-icon">
         </span>
         <input v-model="phoneNumber" class="input-section-input" placeholder="输入手机号码" type="tel" />
       </div>
       <!-- 用户密码 -->
       <div class="input-section">
         <span class="input-section-icon">
-          <img src="/oldStatic/images/tao-you/login-register/password.png" class="input-small-icon">
+          <img src="/static/images/tao-you/login-register/password.png" class="input-small-icon">
         </span>
         <input v-model="password" class="input-section-input" placeholder="输入密码" type="password" />
         <span @click="link({name:'TaoYouUserRegisterOrFindPassword',query: { mID: mID || 8, type: 1}})" class="input-section-addon">忘记密码?</span>
@@ -32,7 +32,7 @@
 
     <!-- 一键注册 -->
     <div class="quick-register">
-      <img class="register-logo" src="/oldStatic/images/tao-you/login-register/register-logo.png" alt="">
+      <img class="register-logo" src="/static/images/tao-you/login-register/register-logo.png" alt="">
       <span v-if="$route.query.app" @click="link({ name:'TaoYouUserRegisterOrFindPassword', query: { mID: mID || 8,type: 0,app: $route.query.app,sign: autoLoginParams.sign,time: autoLoginParams.time,mac: autoLoginParams.mac}})" class="register-text">一键注册</span>
       <span v-else @click="link({ name:'TaoYouUserRegisterOrFindPassword', query: {mID: mID || 8, type: 0}})" class="register-text">一键注册</span>
     </div>

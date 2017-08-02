@@ -1,7 +1,7 @@
 <template>
   <app-header :title="'页面出错'"></app-header>
   <div class="error-page">
-    <div class="error-alt"><img  src="/oldStatic/images/home/error-1.png"></div>
+    <div class="error-alt"><img  src="/static/images/home/error-1.png"></div>
     <p>{{container}}</p>
   </div>
 </template>

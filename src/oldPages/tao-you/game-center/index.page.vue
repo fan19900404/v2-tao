@@ -23,9 +23,9 @@
       <div class="top5_list">
         <div v-for="(h5Item,index) in h5TopList" class="top5_item JS-statistics-h5-game" @click="link({name:'GameIntro',params:{id:h5Item.gameID}})" :key="index">
           <div v-if="index<3" class="ranking_count">
-            <img v-if="index==0" src="/oldStatic/images/game-center/badge-gold.png">
-            <img v-if="index==1" src="/oldStatic/images/game-center/badge-silvery.png">
-            <img v-if="index==2" src="/oldStatic/images/game-center/badge-bronze.png">
+            <img v-if="index==0" src="/static/images/game-center/badge-gold.png">
+            <img v-if="index==1" src="/static/images/game-center/badge-silvery.png">
+            <img v-if="index==2" src="/static/images/game-center/badge-bronze.png">
           </div>
           <div v-if="index>2" class="ranking_count_other">{{index+1}}</div>
           <img class="game_logo" :src="h5Item.imgUrl">
@@ -44,9 +44,9 @@
       <div class="top5_list">
         <div v-for="(mobileItem,index) in mobileTopList" class="top5_item JS-statistics-mobile-game" @click="link({name:'GameIntro',params:{id:mobileItem.gameID}})" :key="index">
           <div v-if="index<3" class="ranking_count">
-            <img v-if="index==0" src="/oldStatic/images/game-center/badge-gold.png">
-            <img v-if="index==1" src="/oldStatic/images/game-center/badge-silvery.png">
-            <img v-if="index==2" src="/oldStatic/images/game-center/badge-bronze.png">
+            <img v-if="index==0" src="/static/images/game-center/badge-gold.png">
+            <img v-if="index==1" src="/static/images/game-center/badge-silvery.png">
+            <img v-if="index==2" src="/static/images/game-center/badge-bronze.png">
           </div>
           <div v-if="index>2" class="ranking_count_other">{{index+1}}</div>
           <img class="game_logo" :src="mobileItem.imgUrl">

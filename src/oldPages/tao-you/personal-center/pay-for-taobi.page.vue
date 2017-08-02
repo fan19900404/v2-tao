@@ -438,7 +438,7 @@
 .active {
   color: $primary;
   border: 1px solid $primary;
-  background-image: url(/oldStatic/images/tao-you/personal-center/checked.png);
+  background-image: url(/static/images/tao-you/personal-center/checked.png);
   background-size: 100% 100%;
 }
 

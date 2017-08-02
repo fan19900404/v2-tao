@@ -22,7 +22,7 @@
     display: inline-block;
     width: 5.4rem;
     height: 2.9rem;
-    background: url(/oldStatic/images/cgn.png) no-repeat center center;
+    background: url(/static/images/cgn.png) no-repeat center center;
     background-size: cover;
   }
 

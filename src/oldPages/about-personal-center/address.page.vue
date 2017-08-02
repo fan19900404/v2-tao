@@ -86,12 +86,12 @@
         vertical-align: baseline;
     }
     .s-icon-edit {
-        background-image: url(/oldStatic/images/s-edit-2.png);
+        background-image: url(/static/images/s-edit-2.png);
         background-size: cover;
 
     }
     .s-icon-del {
-        background-image: url(/oldStatic/images/s-del.png);
+        background-image: url(/static/images/s-del.png);
         background-size: cover;
     }
     .header-right{

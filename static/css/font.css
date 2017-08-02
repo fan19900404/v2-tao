@@ -1,10 +1,10 @@
 
 @font-face {font-family: "one-mall-iconfont";
-  src: url('../icons/one-mall/iconfont.eot?t=1471419482'); /* IE9*/
-  src: url('../icons/one-mall/iconfont.eot?t=1471419482#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('../icons/one-mall/iconfont.woff?t=1471419482') format('woff'), /* chrome, firefox */
-  url('../icons/one-mall/iconfont.ttf?t=1471419482') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('../icons/one-mall/iconfont.svg?t=1471419482#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('../oldIcons/one-mall/iconfont.eot?t=1471419482'); /* IE9*/
+  src: url('../oldIcons/one-mall/iconfont.eot?t=1471419482#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../oldIcons/one-mall/iconfont.woff?t=1471419482') format('woff'), /* chrome, firefox */
+  url('../oldIcons/one-mall/iconfont.ttf?t=1471419482') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../oldIcons/one-mall/iconfont.svg?t=1471419482#iconfont') format('svg'); /* iOS 4.1- */
 }
 .one-mall-iconfont {
   font-family:"one-mall-iconfont" !important;
@@ -41,11 +41,11 @@
 .one-mall-icon-jinbi:before { content: "\e610"; }
 
 @font-face {font-family: "one-mall-iconfont-shaidan";
-  src: url('../icons/single/shaidan/iconfont.eot?t=1471419482'); /* IE9*/
-  src: url('../icons/single/shaidan/iconfont.eot?t=1471419482#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('../icons/single/shaidan/iconfont.woff?t=1471419482') format('woff'), /* chrome, firefox */
-  url('../icons/single/shaidan/iconfont.ttf?t=1471419482') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('../icons/single/shaidan/iconfont.svg?t=1471419482#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('../oldIcons/single/shaidan/iconfont.eot?t=1471419482'); /* IE9*/
+  src: url('../oldIcons/single/shaidan/iconfont.eot?t=1471419482#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../oldIcons/single/shaidan/iconfont.woff?t=1471419482') format('woff'), /* chrome, firefox */
+  url('../oldIcons/single/shaidan/iconfont.ttf?t=1471419482') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../oldIcons/single/shaidan/iconfont.svg?t=1471419482#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .one-mall-iconfont-shaidan {

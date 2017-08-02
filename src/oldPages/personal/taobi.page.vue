@@ -7,7 +7,7 @@
     <section class="base-info bgc-default text-default border-bottom text-white padding">
       <div class="user padding margin-bottom clearfix position-relative">
         <div class="wrapper left fl">
-          <img src="../../../oldStatic/images/personal/taobi.png" alt="">
+          <img src="../../../static/images/personal/taobi.png" alt="">
         </div>
         <div class="wrapper right fl">
           <div>我的淘币</div>
@@ -38,7 +38,7 @@
     <section :class="{'hidden': !noData}">
       <div class="no-data">
         <div class="wrapper text-center">
-          <img src="../../../oldStatic/images/nodata.png" alt="">
+          <img src="../../../static/images/nodata.png" alt="">
           <div class="text-sub margin-top">
             您还未产生过消费记录哦~
           </div>

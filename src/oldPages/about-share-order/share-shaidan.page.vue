@@ -88,7 +88,7 @@
     text-align: center;
     font-size: 1.3rem;
     color: #898989;
-    background: url(/oldStatic/images/norecord_bg.png) no-repeat top center;
+    background: url(/static/images/norecord_bg.png) no-repeat top center;
     padding-top: 20rem;
     background-size: cover;
   }

@@ -64,7 +64,7 @@
                 type: 'back',
                 title: '夺宝客服',
                 list:[{
-                        "avator":"/oldStatic/images/s-head.jpg",
+                        "avator":"/static/images/s-head.jpg",
                         "qq":"3058308211",
                         "name":"小娜",
                         "id":"5"

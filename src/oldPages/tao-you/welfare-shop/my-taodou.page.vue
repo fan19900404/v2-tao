@@ -3,7 +3,7 @@
     <header-component :title="title"></header-component>
     <div class="top_banner">
       <div class="top_wrapper">
-        <img class="taodoulogo" src="/oldStatic/images/tao-you/welfare-shop/taobilogo2.png">
+        <img class="taodoulogo" src="/static/images/tao-you/welfare-shop/taobilogo2.png">
         <p class="taodoutit">我的淘豆</p>
         <p class="taodouval">{{taodou | moneyWidthComma}}</p>
         <div class="flex align-vertical right-box">
@@ -31,7 +31,7 @@
       </p>
     </template>
     <template v-else>
-      <img class="norebate_img" src="/oldStatic/images/tao-you/personal-center/norebate.png">
+      <img class="norebate_img" src="/static/images/tao-you/personal-center/norebate.png">
       <p class="norebate_p">当前没有使用记录</p>
     </template>
     <return-btn></return-btn>

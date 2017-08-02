@@ -1,8 +1,8 @@
 <template>
-  <div class="img hack"><img src="/oldStatic/images/activity/lantern/lantern1.jpg"></div>
+  <div class="img hack"><img src="/static/images/activity/lantern/lantern1.jpg"></div>
   <!--规则-->
   <div class="img spec hack topheight">
-    <img src="/oldStatic/images/activity/lantern/lantern2.jpg" style="height:100%">
+    <img src="/static/images/activity/lantern/lantern2.jpg" style="height:100%">
     <div class="content">
       <span class="span">活动规则</span>
       <ul class="ul-con">
@@ -35,7 +35,7 @@
 
 
   <div class="img spec" :style = "style">
-    <img src="/oldStatic/images/activity/lantern/lantern4.jpg" style="height: 100%;vertical-align:bottom;display:block;">
+    <img src="/static/images/activity/lantern/lantern4.jpg" style="height: 100%;vertical-align:bottom;display:block;">
     <div class="container" :style = "styleheight">
       <div class="center" v-for = "item in list.slice(1)" :style = "styleObject">
         <img :src="item.image">
@@ -326,7 +326,7 @@
     display:block;
     width:8rem;
     height:2.3rem;
-    background:red url('/oldStatic/images/activity/lantern/bg.jpg');
+    background:red url('/static/images/activity/lantern/bg.jpg');
     background-size:normal;
     margin:0 auto;
     text-align:center;
@@ -339,7 +339,7 @@
   .ul-con .button-bg {
     height:3.3rem;
     width:18.1rem;
-    background:url("/oldStatic/images/activity/lantern/button_03.jpg") no-repeat center;
+    background:url("/static/images/activity/lantern/button_03.jpg") no-repeat center;
     background-size:cover;
     margin: 1rem auto;
   }
@@ -349,27 +349,27 @@
     margin: 1rem 0;
   }
   .red-packet-list-header {
-    background-image: url('/oldStatic/images/activity/lantern/bg-list-header.jpg');
+    background-image: url('/static/images/activity/lantern/bg-list-header.jpg');
     background-position: center;
     background-size: 100% 100%;
   }
   .red-packet-list-body-even {
-    background-image: url('/oldStatic/images/activity/lantern/top2.jpg');
+    background-image: url('/static/images/activity/lantern/top2.jpg');
     background-position: center;
     background-size: 100% 100%;
   }
   .red-packet-list-body-odd {
-    background-image: url('/oldStatic/images/activity/lantern/top1.jpg');
+    background-image: url('/static/images/activity/lantern/top1.jpg');
     background-position: center;
     background-size: 100% 100%;
   }
   .red-packet-list-footer-even {
-    background-image: url('/oldStatic/images/activity/lantern/footer2.jpg');
+    background-image: url('/static/images/activity/lantern/footer2.jpg');
     background-position: center;
     background-size: 100% 100%;
   }
   .red-packet-list-footer-odd {
-    background-image: url('/oldStatic/images/activity/lantern/footer1.jpg');
+    background-image: url('/static/images/activity/lantern/footer1.jpg');
     background-position: center;
     background-size: 100% 100%;
   }

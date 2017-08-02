@@ -145,7 +145,7 @@
   #activeIntro .pic-desc{
     width: 100%;
     height: 20rem;
-    background: url("../../../../oldStatic/images/activity/zero/logo.png") no-repeat;
+    background: url("../../../../static/images/activity/zero/logo.png") no-repeat;
     background-size: 100% 100%;
   }
   #activeIntro .btn-area .joined, #activeIntro .btn-area .unjoined{
@@ -157,11 +157,11 @@
     color: #fff;
   }
   #activeIntro .btn-area .joined{
-    background: url("../../../../oldStatic/images/activity/zero/btn-joined.png") no-repeat;
+    background: url("../../../../static/images/activity/zero/btn-joined.png") no-repeat;
     background-size: 100% 100%;
   }
   #activeIntro .btn-area .unjoined{
-    background: url("../../../../oldStatic/images/activity/zero/btn-join.png") no-repeat;
+    background: url("../../../../static/images/activity/zero/btn-join.png") no-repeat;
     background-size: 100% 100%;
   }
   #activeIntro .text-desc .detail{
@@ -173,7 +173,7 @@
     line-height: 2rem;
     color: #333;
     font-size: 1.4rem;
-    background: url("../../../../oldStatic/images/activity/zero/text-desc-bg.png") no-repeat;
+    background: url("../../../../static/images/activity/zero/text-desc-bg.png") no-repeat;
     background-size: 100% 100%;
   }
 
@@ -207,7 +207,7 @@
   }
   #goods-info .cloud{
     height: 3rem;
-    background: url("../../../../oldStatic/images/activity/zero/cloud.png") no-repeat;
+    background: url("../../../../static/images/activity/zero/cloud.png") no-repeat;
     background-size: 100% auto;
   }
   #goods-info .goods-list{

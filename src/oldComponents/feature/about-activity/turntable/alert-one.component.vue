@@ -2,7 +2,7 @@
   <div v-if = "showAlert" class="mask">
       <div class ="about-alert">
         <div class ="about-alert-head" >想要吗？</div>
-        <div class ="about-alert-img"><img src="../../../../../oldStatic/images/activity/turntable/20161208.png"></div>
+        <div class ="about-alert-img"><img src="../../../../../static/images/activity/turntable/20161208.png"></div>
         <p>恭喜你获得 &nbsp“<span>0元买iPhone7的机会</span>”<p>
         <button @click="goIndex">想要</button>
         <div @click="off" class ="about-button"><div class="button1"></div><div class="button2"></div></div>
@@ -38,7 +38,7 @@
     line-height: 7rem;
     font-size: 2.6rem;
     font-weight: bold;
-    background-image:url("../../../../../oldStatic/images/activity/turntable/201612008.png");
+    background-image:url("../../../../../static/images/activity/turntable/201612008.png");
     color: #fff;
 }
 .about-alert-img{

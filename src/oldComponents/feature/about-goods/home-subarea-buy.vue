@@ -222,7 +222,7 @@
     right: 0;
     bottom: 0;
     margin: auto;
-    background-image: url('/oldStatic/images/close.png');
+    background-image: url('/static/images/close.png');
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -273,7 +273,7 @@
   }
   .sold-out {
     background-color: #f1f1f1;
-    background-image: url('/oldStatic/images/sold-out.png');
+    background-image: url('/static/images/sold-out.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -292,7 +292,7 @@
     border-radius: 50%;
     top: .2rem;
     right: .2rem;
-    background-image: url('/oldStatic/images/subarea-buy-active.png');
+    background-image: url('/static/images/subarea-buy-active.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;

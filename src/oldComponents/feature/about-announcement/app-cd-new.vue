@@ -18,7 +18,7 @@
 
 <template>
 	<div class="countdown">
-		<i class="djs-icon icon-alarm"></i><span class="djs">{{minute}}:{{second}}:</span><img class="hm" src="/oldStatic/images/time2.gif">
+		<i class="djs-icon icon-alarm"></i><span class="djs">{{minute}}:{{second}}:</span><img class="hm" src="/static/images/time2.gif">
 	</div>
 </template>
 

@@ -54,7 +54,7 @@
     position: absolute;
     top: .25rem;
     left: .25rem;
-    background-image: url(/oldStatic/images/new-subarea-icon.png);
+    background-image: url(/static/images/new-subarea-icon.png);
     background-size: cover;
   }
 
@@ -65,7 +65,7 @@
     position: absolute;
     top: .25rem;
     left: .25rem;
-    background-image: url(/oldStatic/images/index/10.png);
+    background-image: url(/static/images/index/10.png);
     background-size: cover;
   }
 
@@ -230,7 +230,7 @@
   }
 
   .loading {
-    background-image: url('/oldStatic/images/loading.gif');
+    background-image: url('/static/images/loading.gif');
     height: 3rem;
     background-position: center;
     background-repeat: no-repeat;

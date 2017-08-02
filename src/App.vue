@@ -18,10 +18,12 @@ import RegCompleteDialog from './oldComponents/tao-you/reg/regcomplete.component
 import TwoDialog from './oldComponents/tao-you/dialog/two-buttons-link-dialog.component';
 // 一个按钮的弹窗
 import OneButtonDialog from './oldComponents/tao-you/dialog/one-button-link-dialog.component';
+import '../static/css/common.css';
+import '../static/icons/style.css';
 
 import flexbox from './util/flexbox';
 // 定义页面rem的font-size
-flexbox();
+flexbox(2);
 window.onresize = flexbox;
 
 export default {

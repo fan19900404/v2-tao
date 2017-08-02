@@ -88,7 +88,7 @@
     <!-- 加载中 -->
     <div v-show="showLoading" :style="loadingStyle" class="loading-container">
       <div class="loading-inner">
-        <img class="loading-gif" src="/oldStatic/images/loading.gif" alt="">
+        <img class="loading-gif" src="/static/images/loading.gif" alt="">
         <p class="loading-text">请稍等,正在加载中...</p>
       </div>
     </div>
@@ -274,23 +274,23 @@ export default {
       const conf = {};
       if (window.API_USE === 1) {
         // 支付完成
-        conf.return_url = 'http://1.lly800.com/oldStatic/oldPages/alipay-complete.html';
+        conf.return_url = 'http://1.lly800.com/static/oldPages/alipay-complete.html';
         // 支付取消
-        conf.show_url = 'http://1.lly800.com/oldStatic/oldPages/alipay-cancel.html';
+        conf.show_url = 'http://1.lly800.com/static/oldPages/alipay-cancel.html';
       } else if (window.API_USE === 2) { // 测试的地址
         // 支付完成
-        conf.return_url = 'http://release-1.lly800.com/oldStatic/oldPages/alipay-complete.html';
+        conf.return_url = 'http://release-1.lly800.com/static/oldPages/alipay-complete.html';
         // 支付取消
-        conf.show_url = 'http://release-1.lly800.com/oldStatic/oldPages/alipay-cancel.html';
+        conf.show_url = 'http://release-1.lly800.com/static/oldPages/alipay-cancel.html';
       } else if (window.API_USE === 4) {
-        conf.return_url = 'http://pre.lly800.com/oldStatic/oldPages/alipay-complete.html';
+        conf.return_url = 'http://pre.lly800.com/static/oldPages/alipay-complete.html';
         // 支付取消
-        conf.show_url = 'http://pre.lly800.com/oldStatic/oldPages/alipay-cancel.html';
+        conf.show_url = 'http://pre.lly800.com/static/oldPages/alipay-cancel.html';
       } else {
         // 支付完成
-        conf.return_url = 'http://1.lly800.com/oldStatic/oldPages/alipay-complete.html';
+        conf.return_url = 'http://1.lly800.com/static/oldPages/alipay-complete.html';
         // 支付取消
-        conf.show_url = 'http://1.lly800.com/oldStatic/oldPages/alipay-cancel.html';
+        conf.show_url = 'http://1.lly800.com/static/oldPages/alipay-cancel.html';
       }
 
       // 安卓uc下面，支付完成后，会将我们游戏的ucl篡改掉，导致页面停留在了alipay-complete.html页面，
@@ -298,7 +298,7 @@ export default {
       if (mallUtils.device.isUCBrowser && mallUtils.device.isAndroid) {
         return {
           return_url: `${localStorage.runningURl}/Game/Index/to_game?gid=${this.$route.params.id}`,
-          show_url: `${location.host}/oldStatic/oldPages/alipay-cancel.html`,
+          show_url: `${location.host}/static/oldPages/alipay-cancel.html`,
         };
       }
       return conf;
@@ -566,8 +566,8 @@ export default {
             usetb: 0, // 是否使用淘币
             ticketID: this.ticketID,
             uID: localStorage.getItem('uID'),
-            return_url: `${location.origin}/oldStatic/oldPages/alipay-complete.html`, // 支付完成
-            show_url: `${location.origin}/oldStatic/oldPages/alipay-cancel.html`, // 支付取消
+            return_url: `${location.origin}/static/oldPages/alipay-complete.html`, // 支付完成
+            show_url: `${location.origin}/static/oldPages/alipay-cancel.html`, // 支付取消
           };
           // 安卓uc下面，支付完成后，会将我们游戏的ucl篡改掉，导致页面停留在了alipay-complete.html页面，
           // 这里暂时返回游戏的登陆页面
@@ -588,7 +588,7 @@ export default {
             goBackAction: encodeURIComponent(`window.location.href = '${localStorage.runningURl}/Game/Api/front_url/type/3` + '\''),
             uID: localStorage.getItem('uID'),
             return_url: `${localStorage.runningURl}/Game/Api/front_url/type/1/gameID/${this.$route.params.id}/and/1/redirect/1/from/wechatpay/nologin/1`,
-            show_url: `${location.origin}/oldStatic/oldPages/alipay-cancel.html`, // 支付取消
+            show_url: `${location.origin}/static/oldPages/alipay-cancel.html`, // 支付取消
           };
           break;
 

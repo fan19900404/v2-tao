@@ -35,24 +35,24 @@
     }
 
     .icon-tuwen {
-        background-image: url(/oldStatic/images/s-tuwen.png);
+        background-image: url(/static/images/s-tuwen.png);
         background-size: 100% 100%;
     }
 
     .icon-shaidan {
-        background-image: url(/oldStatic/images/s-shaidan.png);
+        background-image: url(/static/images/s-shaidan.png);
         background-size: 100% 100%;
     }
 
     .icon-wangqi {
         width: 1.6rem;
         height: 1.6rem;
-        background-image: url(/oldStatic/images/s-wangqi.png);
+        background-image: url(/static/images/s-wangqi.png);
         background-size: contain;
     }
 
     .icon-lishi {
-        background-image: url(/oldStatic/images/s-lishi.png);
+        background-image: url(/static/images/s-lishi.png);
         background-size: contain;
     }
 

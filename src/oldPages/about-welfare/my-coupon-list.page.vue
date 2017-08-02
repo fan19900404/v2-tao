@@ -29,7 +29,7 @@
             <p class="ticket_reqire">{{ticket.remark}}</p>
             <p class="ticket_date">有效期至{{ticket.endTime | formatDate 'YYYY-MM-DD HH:mm'}}</p>
             <p class="ticket_remark">可使用</p>
-            <img class="ticket_bg" src="/oldStatic/images/tao-you/personal-center/unuse-bg.png">
+            <img class="ticket_bg" src="/static/images/tao-you/personal-center/unuse-bg.png">
           </div>
           <div v-else class="ticket_used ticket">
             <p class="ticket_value">{{ticket.prize}}</p>
@@ -37,7 +37,7 @@
             <p class="ticket_reqire">{{ticket.remark}}</p>
             <p class="ticket_date">有效期至{{ticket.endTime}}</p>
             <p class="ticket_remark">已过期</p>
-            <img class="ticket_bg" src="/oldStatic/images/tao-you/personal-center/use-bg.png">
+            <img class="ticket_bg" src="/static/images/tao-you/personal-center/use-bg.png">
           </div>
         </li>
       </ul>
@@ -62,12 +62,12 @@
           <p class="ticket_date">有效期至<span>{{ticket.endTime | formatDate 'YYYY-MM-DD HH:MM'}}</span></p>
           <p class="ticket_remark">需要<span>{{ticket.prize | moneyWidthComma}}淘豆</span></p>
           <p class="ticket_remark2">剩余{{ticket.last}}张</p>
-          <img class="ticket_bg" src="/oldStatic/images/tao-you/personal-center/unuse-bg.png">
+          <img class="ticket_bg" src="/static/images/tao-you/personal-center/unuse-bg.png">
         </li>
       </ul>
     </template>
     <template v-else>
-      <img class="norebate_img" src="/oldStatic/images/norebate.png">
+      <img class="norebate_img" src="/static/images/norebate.png">
       <p class="norebate_p">当前没有可兑换抵用券！</p>
     </template>
   </section>
@@ -325,15 +325,15 @@
     text-align: center;
     font-size: 1.3rem;
     color: #898989;
-    background: url(/oldStatic/images/no_dbq_bg2.png) no-repeat top center;
+    background: url(/static/images/no_dbq_bg2.png) no-repeat top center;
     padding-top: 20rem;
   }
   .record-box .no-record.type2 {
-    background: url(/oldStatic/images/no_dbq_bg2.png) no-repeat top center;
+    background: url(/static/images/no_dbq_bg2.png) no-repeat top center;
     background-size: cover;
   }
   .record-box .type1 {
-    background: url(/oldStatic/images/norecord_bg.png) no-repeat top center;
+    background: url(/static/images/norecord_bg.png) no-repeat top center;
     background-size: cover;
   }
   .top_banner {
@@ -413,10 +413,10 @@
     overflow: hidden;
   }
   .ticket_used {
-    background-image: url('/oldStatic/images/tao-you/personal-center/ticket-used.png');
+    background-image: url('/static/images/tao-you/personal-center/ticket-used.png');
   }
   .ticket_unused {
-    background-image: url('/oldStatic/images/tao-you/personal-center/ticket-unuse2.png');
+    background-image: url('/static/images/tao-you/personal-center/ticket-unuse2.png');
   }
   .ticket_value {
     font-size: 2.4rem;

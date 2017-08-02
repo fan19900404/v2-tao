@@ -13,7 +13,7 @@
     }
 
     .g-header.personal {
-        /*background: url(/oldStatic/images/persona_nav_bg.jpg) no-repeat top center;*/
+        /*background: url(/static/images/persona_nav_bg.jpg) no-repeat top center;*/
     }
 
     .g-header-h1 {

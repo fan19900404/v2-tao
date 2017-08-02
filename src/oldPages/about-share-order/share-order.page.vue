@@ -12,7 +12,7 @@
     <!-- upload image 上传图片 -->
     <div id="uploader" class="img-uploader-container flex">
       <!--<div class="img-container">-->
-        <!--<img class="img" src="/oldStatic/store/flow-175425-AngularJS-Logo-1024x547png.1.jpg">-->
+        <!--<img class="img" src="/static/store/flow-175425-AngularJS-Logo-1024x547png.1.jpg">-->
       <!--</div>-->
       <div v-for="v of filePath" class="img-container">
         <img class="img" src="{{v}}">

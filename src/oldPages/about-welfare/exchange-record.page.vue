@@ -4,7 +4,7 @@
 
   <!-- 没有记录 -->
   <div v-show="0 === records.length" class="no-dbq-box">
-    <img class="no-img" src="/oldStatic/images/no_dbq_bg.png">
+    <img class="no-img" src="/static/images/no_dbq_bg.png">
     <p class="tips">没有可使用的夺宝券</p>
     <a class="ljdh" v-link="'/welfare/integral-exchange'">立即兑换</a>
   </div>
@@ -108,7 +108,7 @@
 
 <style scoped>
   .loading {
-    background-image: url('/oldStatic/images/loading.gif');
+    background-image: url('/static/images/loading.gif');
     height: 3rem;
     background-position: center;
     background-repeat: no-repeat;

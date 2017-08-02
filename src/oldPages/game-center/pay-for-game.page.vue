@@ -358,7 +358,7 @@
   }
   .agree-check-active {
     border: 1px solid #ff4a4a;
-    background-image: url('/oldStatic/images/game-center/pay-check.png');
+    background-image: url('/static/images/game-center/pay-check.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -559,6 +559,6 @@
     background-repeat: no-repeat;
   }
   .taobi-logo-tb {
-    background-image: url(/oldStatic/images/taobiPay.png);
+    background-image: url(/static/images/taobiPay.png);
   }
 </style>

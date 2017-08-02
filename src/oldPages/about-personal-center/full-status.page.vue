@@ -19,7 +19,7 @@
 
 	.userinfo-area {
 		height: 11.5rem;
-		background: url(/oldStatic/images/personal_bg.jpg) no-repeat top center;
+		background: url(/static/images/personal_bg.jpg) no-repeat top center;
 		background-size: cover;
 	}
 
@@ -27,7 +27,7 @@
     position: relative;
 		height: 5.3rem;
 		padding: 0 1.6rem;
-		/* background: url(/oldStatic/images/user_box_bg.jpg) no-repeat top center; */
+		/* background: url(/static/images/user_box_bg.jpg) no-repeat top center; */
 		background-size: cover;
 	}
 
@@ -167,7 +167,7 @@
 	}
 
 	.record-box {
-		/*background: #f8f8f8 url(/oldStatic/images/personal_list_bg.jpg) no-repeat top center;*/
+		/*background: #f8f8f8 url(/static/images/personal_list_bg.jpg) no-repeat top center;*/
 		padding-top: 1.2rem;
 	}
 
@@ -176,7 +176,7 @@
 		text-align: center;
 		font-size: 1.3rem;
 		color: #898989;
-		background: url(/oldStatic/images/norecord_bg.png) no-repeat top center;
+		background: url(/static/images/norecord_bg.png) no-repeat top center;
 		padding-top: 20rem;
 		background-size: cover;
 	}
@@ -206,7 +206,7 @@
 		display: block;
 		width: 2.5rem;
 		height: 3.2rem;
-		background: url(/oldStatic/images/fenqu_icon.png) no-repeat center center;
+		background: url(/static/images/fenqu_icon.png) no-repeat center center;
 		background-size: cover;
 		position: absolute;
 		top: 0;
@@ -232,7 +232,7 @@
 	.record-list .list-li .goods-c .lucky-icon {
 		width: 5.4rem;
 		height: 2.9rem;
-		background: url(/oldStatic/images/cgn.png) no-repeat center center;
+		background: url(/static/images/cgn.png) no-repeat center center;
 		background-size: cover;
 		margin-left: 2.6rem;
 		position: absolute;
@@ -386,7 +386,7 @@
 		display: block;
 		width: 4.4rem;
 		height: 4.4rem;
-		background: url("/oldStatic/images/kf.png") no-repeat center center;
+		background: url("/static/images/kf.png") no-repeat center center;
 		position: fixed;
 		bottom: 8.5rem;
 		right: 1.6rem;

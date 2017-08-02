@@ -84,7 +84,7 @@ export default {
 
 <style lang="scss" scoped>
 .is-loading {
-  background-image: url('/oldStatic/images/oldComponents/load-more-data/loading.gif');
+  background-image: url('/static/images/oldComponents/load-more-data/loading.gif');
   height: 3rem;
   background-position: center;
   background-size: contain;

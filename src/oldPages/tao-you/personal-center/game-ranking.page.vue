@@ -65,7 +65,7 @@
     <section class="container-list" v-show="!isranking">
       <div class="container-list-cen am-wingblank wb15px">
         <div class="container--cen--l">
-          <img src="/oldStatic/images/tao-you/personal-center/norebate.png">
+          <img src="/static/images/tao-you/personal-center/norebate.png">
         </div>
         <p class="am-ft-center am-ft-20 am-ft-lightgray">当前暂无排行记录</p>
       </div>

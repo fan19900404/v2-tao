@@ -21,19 +21,19 @@
   }
 
   .icon-cz {
-    background-image: url(/oldStatic/images/nav-cz.png);
+    background-image: url(/static/images/nav-cz.png);
   }
 
   .icon-to20 {
-    background-image: url(/oldStatic/images/nav-1to20.png);
+    background-image: url(/static/images/nav-1to20.png);
   }
 
   .icon-zxjx {
-    background-image: url(/oldStatic/images/index/jiexiao.png);
+    background-image: url(/static/images/index/jiexiao.png);
   }
 
   .icon-bzzx {
-    background-image: url(/oldStatic/images/nav-help.png);
+    background-image: url(/static/images/nav-help.png);
   }
 
   .g-nav .text {
@@ -74,7 +74,7 @@
     right: -2rem;
     width: 2rem;
     height: 1.1rem;
-    background-image: url('/oldStatic/images/index/hot.png');
+    background-image: url('/static/images/index/hot.png');
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -85,7 +85,7 @@
     right: -2rem;
     width: 1.8rem;
     height: 1.1rem;
-    background-image: url('/oldStatic/images/index/rob.png');
+    background-image: url('/static/images/index/rob.png');
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;

@@ -78,11 +78,11 @@
     }
 
     .s-icon-pay {
-        background-image: url(/oldStatic/images/i-pay.png);
+        background-image: url(/static/images/i-pay.png);
     }
 
     .s-icon-bank {
-        background-image: url(/oldStatic/images/i-bank.png);
+        background-image: url(/static/images/i-bank.png);
     }
 
     .type {

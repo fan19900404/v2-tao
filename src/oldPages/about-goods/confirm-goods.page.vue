@@ -401,11 +401,11 @@
 }
 
 .tp-hide {
-  background-image: url('/oldStatic/images/pwd-hide.png');
+  background-image: url('/static/images/pwd-hide.png');
 }
 
 .tp-show {
-  background-image: url('/oldStatic/images/pwd-show.png');
+  background-image: url('/static/images/pwd-show.png');
 }
 
 .cd-phone-cost {

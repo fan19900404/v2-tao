@@ -1,3 +1,4 @@
+import flexbox from '../util/flexbox';
 /* eslint-disable global-require */
 export default [
   {
@@ -18,6 +19,11 @@ export default [
         },
         'TaoYouHome',
       );
+    },
+    beforeEnter(to, from, next) {
+      console.log(1);
+      flexbox(1);
+      next();
     },
   },
   // {

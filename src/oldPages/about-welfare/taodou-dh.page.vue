@@ -45,7 +45,7 @@
 		padding: 0 1.5rem;
 		margin: 0 0 1.6rem 0;
 		color: #898989;
-		background: url(/oldStatic/images/quan_bg.png) no-repeat top center;
+		background: url(/static/images/quan_bg.png) no-repeat top center;
 		background-size: 100% 100%;
 	}
 

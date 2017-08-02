@@ -29,7 +29,7 @@
     <div class="list__container">
       <div v-for="item in dataList.slice(0,3)" class="list__context">
         <div class="list__img" @click="open(item.field,item.id,item.gameUrl,item.name,item.direction)">
-          <img src="/oldStatic/images/tao-you/home/h5.png" id="bg" v-show="1==item.field ">
+          <img src="/static/images/tao-you/home/h5.png" id="bg" v-show="1==item.field ">
           <img :src="item.gameIcon">
         </div>
         <span class="list__text">{{item.name.slice(0,4)}}</span>
@@ -46,7 +46,7 @@
     <div class="no__container" :class="{'space-between': dataListLogin.slice(0,4).length == 4}">
       <div v-for="(item,index) in dataListLogin.slice(0,4)" class="no__context" :class="{'align-center': dataListLogin.slice(0,4).length == 4}" :key="index">
         <div class="no__img" @click="open(item.field,item.gameID,item.gameUrl,item.gameName,item.direction)">
-          <img src="/oldStatic/images/tao-you/home/h5.png" id="bg" v-show="1==item.field">
+          <img src="/static/images/tao-you/home/h5.png" id="bg" v-show="1==item.field">
           <img :src="item.imgUrl">
         </div>
         <span style="padding-bottom:.1rem" class="no__text">{{item.gameName.slice(0,4)}}</span>
@@ -64,7 +64,7 @@
           <a href="">
             <div class="icon-container">
               <div class="swiper-slide__img">
-                <img src="/oldStatic/images/tao-you/home/h5.png" id="bg" v-show="1==v.field">
+                <img src="/static/images/tao-you/home/h5.png" id="bg" v-show="1==v.field">
                 <img :src="v.gameIcon" alt="">
               </div>
             </div>

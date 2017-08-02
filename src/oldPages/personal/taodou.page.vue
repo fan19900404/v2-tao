@@ -10,7 +10,7 @@
 
   <!-- 列表无数据 -->
   <section class="no-dbq-box" :class="{'hidden': !noData}">
-    <img class="no-img" src="/oldStatic/images/personal/no_dbq_bg.png">
+    <img class="no-img" src="/static/images/personal/no_dbq_bg.png">
     <p class="tips">没有可使用的抵扣券</p>
     <a class="ljdh" v-link="'/tao-you/personal/taodou-dh'">立即兑换</a>
   </section>
@@ -225,7 +225,7 @@
 
         /*未使用的抵扣券样式*/
         > li.unused {
-          background: url(/oldStatic/images/personal/quan_bg.png) no-repeat top center;
+          background: url(/static/images/personal/quan_bg.png) no-repeat top center;
           background-size: 100% 100%;
 
           .top{
@@ -240,13 +240,13 @@
 
         /*过期的抵扣券样式*/
         > li.overdue {
-          background: url(/oldStatic/images/personal/quan_overdue_bg.png) no-repeat top center;
+          background: url(/static/images/personal/quan_overdue_bg.png) no-repeat top center;
           background-size: 100% 100%;
         }
 
         /*已使用的抵扣券样式*/
         > li.used {
-          background: url(/oldStatic/images/personal/quan_used_bg.png) no-repeat top center;
+          background: url(/static/images/personal/quan_used_bg.png) no-repeat top center;
           background-size: 100% 100%;
         }
       }

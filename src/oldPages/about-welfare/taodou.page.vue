@@ -82,7 +82,7 @@
 
   /*未使用的夺宝券样式*/
   .dbq-list > li.unused {
-    background: url(/oldStatic/images/quan_bg.png) no-repeat top center;
+    background: url(/static/images/quan_bg.png) no-repeat top center;
     background-size: 100% 100%;
   }
 
@@ -96,13 +96,13 @@
 
   /*过期的夺宝券样式*/
   .dbq-list > li.overdue {
-    background: url(/oldStatic/images/quan_overdue_bg.png) no-repeat top center;
+    background: url(/static/images/quan_overdue_bg.png) no-repeat top center;
     background-size: 100% 100%;
   }
 
   /*已使用的夺宝券样式*/
   .dbq-list > li.used {
-    background: url(/oldStatic/images/quan_used_bg.png) no-repeat top center;
+    background: url(/static/images/quan_used_bg.png) no-repeat top center;
     background-size: 100% 100%;
   }
 
@@ -147,7 +147,7 @@
     <a class="dhdbq-btn" v-link="'/welfare/taodou-dh'">兑换夺宝券</a>
   </section>
   <div class="no-dbq-box" v-if="dbqList.length==0">
-    <img class="no-img" src="/oldStatic/images/no_dbq_bg.png">
+    <img class="no-img" src="/static/images/no_dbq_bg.png">
     <p class="tips">没有可使用的夺宝券</p>
     <a class="ljdh" v-link="'/welfare/taodou-dh'">立即兑换</a>
   </div>

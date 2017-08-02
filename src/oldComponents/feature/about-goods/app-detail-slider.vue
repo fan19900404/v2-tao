@@ -90,7 +90,7 @@
     /*left: -2.1rem;*/
     top: 1rem;
     left: 1rem;
-    background-image: url('/oldStatic/images/new-subarea-icon.png');
+    background-image: url('/static/images/new-subarea-icon.png');
     background-size: 100% 100%;
     background-position: center;
   }
@@ -100,7 +100,7 @@
     position: absolute;
     top: 1rem;
     left: 1rem;
-    background-image: url('/oldStatic/images/index/10.png');
+    background-image: url('/static/images/index/10.png');
     background-size: 100% 100%;
     background-position: center;
   }
@@ -146,7 +146,7 @@
 
     <div v-show="false" class="user-notice dr-flex">
       <span class="head-pic">
-        <img src="/oldStatic/images/slider-4.jpg">
+        <img src="/static/images/slider-4.jpg">
       </span>
       <span class="username">换个**手气</span>
       <div class="times">参与了<span class="times-color">9</span>人次</div>

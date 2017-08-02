@@ -20,7 +20,7 @@
 
 <style scoped>
 .loading {
-  background-image: url('/oldStatic/images/loading.gif');
+  background-image: url('/static/images/loading.gif');
   height: 3rem;
   background-position: center;
   background-repeat: no-repeat;

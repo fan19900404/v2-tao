@@ -3,10 +3,9 @@ import Router from 'vue-router';
 import pageMap from '../oldPages/tao-you/statistics/page-map';
 import routers from './router';
 import homeRouter from './home';
+import flexbox from '../util/flexbox';
 
 Vue.use(Router);
-
-
 
 const router = new Router({
   routes: [
@@ -29,6 +28,7 @@ const router = new Router({
 });
 
 router.beforeEach((to, from, next) => {
+  flexbox(2);
   const query = from.query || {};
   if (query.hasOwnProperty('mID')) {
     window.mID = query.mID;
@@ -185,7 +185,7 @@ router.afterEach((to, from, next) => {
         title: '淘游助手', // 分享标题
         link: shareUrl, // 分享链接
         desc: '畅玩游戏领好礼，淘游等你来体验',
-        imgUrl: `${window.location.origin}/oldStatic/images/share/tao-you-logo.jpg`,
+        imgUrl: `${window.location.origin}/static/images/share/tao-you-logo.jpg`,
       };
       // 分享到朋友圈
       wx.onMenuShareTimeline(shareInfo);

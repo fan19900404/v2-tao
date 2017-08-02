@@ -83,7 +83,7 @@
         <div class="phone-info-item">
           <div class="vendor dr-flex">
             <div class="vendor-wrap bg-c-yidong dr-flex">
-              <img class="img yidong" src="/oldStatic/images/yidong.png">
+              <img class="img yidong" src="/static/images/yidong.png">
             </div>
             <p class="which-vendor flex-1 c-yidong">移动充值卡</p>
           </div>
@@ -95,7 +95,7 @@
         <div class="phone-info-item">
           <div class="vendor dr-flex">
             <div class="vendor-wrap bg-c-liantong dr-flex">
-              <img class="img liantong" src="/oldStatic/images/liantong.png">
+              <img class="img liantong" src="/static/images/liantong.png">
             </div>
             <p class="which-vendor flex-1 c-liantong">联通充值卡</p>
           </div>
@@ -107,7 +107,7 @@
         <div class="phone-info-item">
           <div class="vendor dr-flex">
             <div class="vendor-wrap bg-c-dianxin dr-flex">
-              <img class="img dianxin" src="/oldStatic/images/dianxin.png">
+              <img class="img dianxin" src="/static/images/dianxin.png">
             </div>
             <p class="which-vendor flex-1 c-dianxin">电信充值卡</p>
           </div>
@@ -119,7 +119,7 @@
         <div class="phone-info-item">
           <div class="vendor dr-flex">
             <div class="vendor-wrap bg-c-zfb dr-flex">
-              <img class="img dianxin" src="/oldStatic/images/index/zhifubao.png">
+              <img class="img dianxin" src="/static/images/index/zhifubao.png">
             </div>
             <p class="which-vendor flex-1 c-zfb">充值到支付宝</p>
           </div>
@@ -268,7 +268,7 @@
   }
   .active {
     border: 1px solid #ff4a4a;
-    background-image: url('/oldStatic/images/check-correct.png');
+    background-image: url('/static/images/check-correct.png');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;

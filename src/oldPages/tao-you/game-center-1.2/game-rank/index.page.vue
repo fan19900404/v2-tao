@@ -9,7 +9,7 @@
     <div class="container">
       <div class="container__slide">
         <div class="container__img" @click="open(allGameData[1].field,allGameData[1].id,allGameData[1].gameUrl,allGameData[1].name,allGameData[1].direction)">
-          <img src="/oldStatic/images/tao-you/home/h5.png" id="bg" v-show="1==allGameData[1].field ">
+          <img src="/static/images/tao-you/home/h5.png" id="bg" v-show="1==allGameData[1].field ">
           <img :src="allGameData[1].gameIcon">
         </div>
         <div class="container__rank">2</div>
@@ -19,7 +19,7 @@
       </div>
       <div class="container__slide">
         <div class="container__img" style="margin: .28rem 0 .11rem 0;" @click="open(allGameData[0].field,allGameData[0].id,allGameData[0].gameUrl,allGameData[0].name,allGameData[0].direction)">
-          <img src="/oldStatic/images/tao-you/home/h5.png" id="bg" v-show="1==allGameData[0].field ">
+          <img src="/static/images/tao-you/home/h5.png" id="bg" v-show="1==allGameData[0].field ">
           <img :src="allGameData[0].gameIcon">
         </div>
         <div class="container__rank" style="width:.28rem;height:.17rem;padding-top: .06rem;">1</div>
@@ -28,7 +28,7 @@
       </div>
       <div class="container__slide">
         <div class="container__img" @click="open(allGameData[2].field,allGameData[2].id,allGameData[2].gameUrl,allGameData[2].name,allGameData[2].direction)">
-          <img src="/oldStatic/images/tao-you/home/h5.png" id="bg" v-show="1==allGameData[2].field">
+          <img src="/static/images/tao-you/home/h5.png" id="bg" v-show="1==allGameData[2].field">
           <img :src="allGameData[2].gameIcon">
         </div>
         <div class="container__rank">3</div>
@@ -76,7 +76,7 @@
 
 .container {
   height: 1.51rem;
-  background: white url("/oldStatic/images/game-center/rank-bg_02.png") no-repeat;
+  background: white url("/static/images/game-center/rank-bg_02.png") no-repeat;
   background-size: 100% .83rem;
   display: flex;
   border-bottom: 1px solid #E5E5E5;
@@ -101,7 +101,7 @@
   &__rank {
     width: .22rem;
     height: .15rem;
-    background: white url("/oldStatic/images/game-center/demo_04.png") no-repeat;
+    background: white url("/static/images/game-center/demo_04.png") no-repeat;
     background-size: 100% 100%;
     text-align: center;
     padding-top: .04rem;

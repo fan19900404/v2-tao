@@ -33,7 +33,7 @@
     <section :class="{'hidden': !noData}">
       <div class="no-data">
         <div class="wrapper text-center">
-          <img src="../../../oldStatic/images/nodata.png" alt="">
+          <img src="../../../static/images/nodata.png" alt="">
           <div class="text-sub margin-top">
             没有可兑换的抵扣券~
           </div>
@@ -253,7 +253,7 @@
           padding: 0 1.5rem;
           margin: 0 0 1.6rem 0;
           color: #898989;
-          background: url(/oldStatic/images/personal/quan_bg.png) no-repeat top center;
+          background: url(/static/images/personal/quan_bg.png) no-repeat top center;
           background-size: 100% 100%;
 
           .dbq-info{

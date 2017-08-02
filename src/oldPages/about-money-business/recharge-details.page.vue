@@ -51,10 +51,10 @@
     background-position:right .4rem;
   }
   .top_left .val{
-    background-image:url('/oldStatic/images/personal/gold2.png');
+    background-image:url('/static/images/personal/gold2.png');
   }
   .top_right .val{
-    background-image:url('/oldStatic/images/personal/gold1.png');
+    background-image:url('/static/images/personal/gold1.png');
   }
 
   .help_link{
@@ -180,7 +180,7 @@
   </section>
   <!--没有充值明细-->
   <div class="empty_wrapper" v-show="detailList.length==0">
-    <img src="/oldStatic/images/tao-you/personal-center/withourecord.png">
+    <img src="/static/images/tao-you/personal-center/withourecord.png">
     <p>您还没有充值记录哦！</p>
   </div>
 

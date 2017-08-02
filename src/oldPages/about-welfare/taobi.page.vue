@@ -1,7 +1,7 @@
 <style scoped>
 	.count-box {
 		height: 7.3rem;
-		background: #ff4a4a url(/oldStatic/images/wave_bg.png) no-repeat bottom center;
+		background: #ff4a4a url(/static/images/wave_bg.png) no-repeat bottom center;
 		background-size: contain;
 	}
 

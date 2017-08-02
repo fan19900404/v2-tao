@@ -1,7 +1,7 @@
 <template>
   <app-header :title="title"></app-header>
   <div class="main_content">
-    <img src="/oldStatic/images/activity/newyear/newyear-bg.jpg">
+    <img src="/static/images/activity/newyear/newyear-bg.jpg">
     <a class="link link1" href="/#/personal/recharge"></a>
     <a class="link link2" href="/#/personal/recharge"></a>
     <a class="link link3" href="/#/personal/recharge"></a>

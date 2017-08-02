@@ -163,7 +163,7 @@
     width: .130rem;
     color: #a5a5a5;
     margin-right: 0.03rem;
-    background-image: url("/oldStatic/images/tao-you/welfare-shop/welfare-b.png");
+    background-image: url("/static/images/tao-you/welfare-shop/welfare-b.png");
     background-size: 100% 100%;
   }
 }

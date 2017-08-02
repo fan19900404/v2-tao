@@ -6,14 +6,14 @@
       <!-- 用户手机 -->
       <div class="input-section">
         <span class="input-section-icon">
-          <img src="/oldStatic/images/tao-you/login-register/phone.png" class="input-small-icon">
+          <img src="/static/images/tao-you/login-register/phone.png" class="input-small-icon">
         </span>
         <input v-model="phoneNumber" class="input-section-input" placeholder="输入手机号" type="tel" />
       </div>
       <!-- 输入验证码 -->
       <div class="input-section">
         <span class="input-section-icon">
-          <img src="/oldStatic/images/tao-you/login-register/protect-logo.png" class="input-small-icon">
+          <img src="/static/images/tao-you/login-register/protect-logo.png" class="input-small-icon">
         </span>
         <input v-model="code" class="input-section-input" placeholder="请输入验证码" type="tel" />
         <button :class="{'input-section-btn--active': canUseSendCodeBtn, 'input-section-btn--disabled': !canUseSendCodeBtn}" :disabled="!canUseSendCodeBtn" @click="sendVerificationCode" class="input-section-btn">{{sendCodeMsg}}</button>
@@ -21,14 +21,14 @@
       <!-- 用户密码 -->
       <div class="input-section">
         <span class="input-section-icon">
-          <img src="/oldStatic/images/tao-you/login-register/password.png" class="input-small-icon">
+          <img src="/static/images/tao-you/login-register/password.png" class="input-small-icon">
         </span>
         <input v-model="password" class="input-section-input" placeholder="请输入6-14位密码,数字或字母" type="password" />
       </div>
       <!-- 用户密码确认 -->
       <div class="input-section">
         <span class="input-section-icon">
-          <img src="/oldStatic/images/tao-you/login-register/password.png" class="input-small-icon">
+          <img src="/static/images/tao-you/login-register/password.png" class="input-small-icon">
         </span>
         <input v-model="passwordConfirm" class="input-section-input" placeholder="请输入6-14位密码,数字或字母" type="password" />
       </div>
