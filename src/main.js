@@ -11,8 +11,8 @@ import store from './vuex/store';
 import HttpConf from './http';
 import * as filter from './filters/substr';
 // 统计使用
-import statistics from './pages/tao-you/statistics';
-import addPadStart from './pages/tao-you/statistics/utils/padStart';
+import statistics from './oldPages/tao-you/statistics';
+import addPadStart from './oldPages/tao-you/statistics/utils/padStart';
 
 // 微端自动登录
 import Login from '../static/lib/weClient/login';

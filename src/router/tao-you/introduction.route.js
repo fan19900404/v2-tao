@@ -4,7 +4,7 @@ const router = [
     path: '/tao-you/introduction/recharge',
     name: 'IntroductionRecharge',
     component(resolve) {
-      require(['../../pages/tao-you/introduction/recharge.page'], resolve);
+      require(['../../oldPages/tao-you/introduction/recharge.page'], resolve);
     },
   },
   {
@@ -12,7 +12,7 @@ const router = [
     path: '/tao-you/spread-our-game/:id',
     name: 'TaoYouSpreadOurGame',
     component(resolve) {
-      require(['../../pages/tao-you/spread/spread-our-game.page.vue'], resolve);
+      require(['../../oldPages/tao-you/spread/spread-our-game.page.vue'], resolve);
     },
   },
 ];

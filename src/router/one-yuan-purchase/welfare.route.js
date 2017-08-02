@@ -16,7 +16,7 @@ pages.forEach(function(page) {
   router[name] = {
     name: name,
     component: function(resolve) {
-      require(['../../pages/about-welfare/' + page + '.page'], resolve)
+      require(['../../oldPages/about-welfare/' + page + '.page'], resolve)
     }
   }
 });

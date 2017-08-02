@@ -8,7 +8,7 @@ const router = [
     path: '/tao-you/search',
     name: 'TaoYouSearch',
     component(resolve) {
-      require(['../../pages/tao-you/search-module/search.page'], resolve);
+      require(['../../oldPages/tao-you/search-module/search.page'], resolve);
     },
   },
 ];

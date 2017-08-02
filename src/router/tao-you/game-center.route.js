@@ -8,7 +8,7 @@ const router = [
     path: '/tao-you/game-intro/:id',
     name: 'GameIntro',
     component(resolve) {
-      require(['../../pages/tao-you/game-center/game-detail.page'], resolve);
+      require(['../../oldPages/tao-you/game-center/game-detail.page'], resolve);
     },
   },
   {
@@ -16,7 +16,7 @@ const router = [
     path: '/tao-you/our-game-intro/:id',
     name: 'TaoYouOurGameIntro',
     component(resolve) {
-      require(['../../pages/tao-you/game-center/our-game-detail.page'], resolve);
+      require(['../../oldPages/tao-you/game-center/our-game-detail.page'], resolve);
     },
   },
   {
@@ -24,7 +24,7 @@ const router = [
     path: '/tao-you/pay-for-game',
     name: 'PayForGame',
     component(resolve) {
-      require(['../../pages/tao-you/game-center/pay-for-game.page'], resolve);
+      require(['../../oldPages/tao-you/game-center/pay-for-game.page'], resolve);
     },
   },
   {
@@ -32,7 +32,7 @@ const router = [
     path: '/tao-you/pay-callback',
     name: 'PayCallback',
     component(resolve) {
-      require(['../../pages/game-center/pay-callback.page'], resolve);
+      require(['../../oldPages/game-center/pay-callback.page'], resolve);
     },
   },
   {
@@ -40,7 +40,7 @@ const router = [
     path: '/tao-you/pay/return/:id',
     name: 'PayReturn',
     component(resolve) {
-      require(['../../pages/tao-you/game-center/pay-return.page'], resolve);
+      require(['../../oldPages/tao-you/game-center/pay-return.page'], resolve);
     },
   },
   {
@@ -48,7 +48,7 @@ const router = [
     path: '/tao-you/service-agreement',
     name: 'ServiceAgreement',
     component(resolve) {
-      require(['../../pages/game-center/service-agreement.page'], resolve);
+      require(['../../oldPages/game-center/service-agreement.page'], resolve);
     },
   },
   {
@@ -56,7 +56,7 @@ const router = [
     path: '/tao-you/play-my-game/:id',
     name: 'TaoYouPlayMyGame',
     component(resolve) {
-      require(['../../pages/tao-you/game-center/play-game.page'], resolve);
+      require(['../../oldPages/tao-you/game-center/play-game.page'], resolve);
     },
   },
 
@@ -65,7 +65,7 @@ const router = [
     path: '/tao-you/outer-game-demo',
     name: 'TaoYouOuterGameDemo',
     component(resolve) {
-      require(['../../pages/tao-you/game-center/outer-game-demo.page'], resolve);
+      require(['../../oldPages/tao-you/game-center/outer-game-demo.page'], resolve);
     },
   },
 
@@ -74,7 +74,7 @@ const router = [
     path: '/tao-you/recharge-back',
     name: 'TaoYouRechargeBack',
     component(resolve) {
-      require(['../../pages/tao-you/game-center/recharge-back.page'], resolve);
+      require(['../../oldPages/tao-you/game-center/recharge-back.page'], resolve);
     },
   },
 
@@ -83,7 +83,7 @@ const router = [
     path: '/tao-you/recharge-success',
     name: 'TaoYouRechargeSuccess',
     component(resolve) {
-      require(['../../pages/tao-you/game-center/recharge-success.page'], resolve);
+      require(['../../oldPages/tao-you/game-center/recharge-success.page'], resolve);
     },
   },
 
@@ -92,7 +92,7 @@ const router = [
     path: '/tao-you/play-game',
     name: 'TaoYouPlayGame',
     component(resolve) {
-      require(['../../pages/tao-you/weclient/play-game.page'], resolve);
+      require(['../../oldPages/tao-you/weclient/play-game.page'], resolve);
     },
   },
 ];

@@ -9,7 +9,7 @@ const router = [
     path: '/tao-you/news/:id',
     name: 'TaoYouNewsDetail',
     component(resolve) {
-      require(['../../pages/tao-you/home/news-detail.page'], resolve);
+      require(['../../oldPages/tao-you/home/news-detail.page'], resolve);
     },
   },
   {
@@ -23,7 +23,7 @@ const router = [
     path: '/tao-you/',
     name: 'TaoYouHome',
     component(resolve) {
-      require(['../../pages/tao-you/home/index.page'], resolve);
+      require(['../../oldPages/tao-you/home/index.page'], resolve);
     },
   },
   {
@@ -31,7 +31,7 @@ const router = [
     path: '/tao-you/original-news',
     name: 'TaoYouOriginalNews',
     component(resolve) {
-      require(['../../pages/tao-you/home/original.page'], resolve);
+      require(['../../oldPages/tao-you/home/original.page'], resolve);
     },
   },
   {
@@ -39,7 +39,7 @@ const router = [
     path: '/tao-you/news-comment/:newsID/category/:category/type/:type',
     name: 'TaoYouNewsComment',
     component(resolve) {
-      require(['../../pages/tao-you/home/comment.page'], resolve);
+      require(['../../oldPages/tao-you/home/comment.page'], resolve);
     },
   },
   {
@@ -47,7 +47,7 @@ const router = [
     path: '/tao-you/all-comments/:id/category/:category',
     name: 'TaoYouHomeAllComments',
     component(resolve) {
-      require(['../../pages/tao-you/home/all-comments.page'], resolve);
+      require(['../../oldPages/tao-you/home/all-comments.page'], resolve);
     },
   },
   // 对某个用户所有的回复
@@ -55,7 +55,7 @@ const router = [
     path: '/tao-you/all-replies/:newsID/comment/:id/category/:category',
     name: 'TaoYouHomeAllReplies',
     component(resolve) {
-      require(['../../pages/tao-you/home/all-replies.page'], resolve);
+      require(['../../oldPages/tao-you/home/all-replies.page'], resolve);
     },
   },
   {
@@ -63,7 +63,7 @@ const router = [
     path: '/tao-you/user-login',
     name: 'TaoYouUserLogin',
     component(resolve) {
-      require(['../../pages/tao-you/login-register/login.page'], resolve);
+      require(['../../oldPages/tao-you/login-register/login.page'], resolve);
     },
   },
   {
@@ -71,7 +71,7 @@ const router = [
     path: '/tao-you/user-register-or-find-password',
     name: 'TaoYouUserRegisterOrFindPassword',
     component(resolve) {
-      require(['../../pages/tao-you/login-register/register-or-find-password.page'], resolve);
+      require(['../../oldPages/tao-you/login-register/register-or-find-password.page'], resolve);
     },
   },
 
@@ -80,7 +80,7 @@ const router = [
     path: '/tao-you/wechat-login-success',
     name: 'TaoYouWechatLoginSuccess',
     component(resolve) {
-      require(['../../pages/tao-you/login-register/wechat-login-success.page'], resolve);
+      require(['../../oldPages/tao-you/login-register/wechat-login-success.page'], resolve);
     },
   },
 ];

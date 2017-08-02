@@ -4,7 +4,7 @@ const router = [
     path: '/tao-you/activity',
     name: 'TaoYouActivityList',
     component(resolve) {
-      require(['../../pages/tao-you/activity/home/index.page'], resolve);
+      require(['../../oldPages/tao-you/activity/home/index.page'], resolve);
     },
   },
 ];

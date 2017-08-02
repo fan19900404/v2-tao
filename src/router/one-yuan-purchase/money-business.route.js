@@ -5,21 +5,21 @@ export default {
   '/personal/recharge': {
     name: 'pay-recharge',
     component: function (resolve) {
-      require(['../../pages/about-money-business/recharge.page'], resolve)
+      require(['../../oldPages/about-money-business/recharge.page'], resolve)
     }
   },
   // 淘币不足直接支付
   '/pay-for-goods/:tradeNo/:taoBi/:number': {
     name: 'pay-for-goods',
     component: function (resolve) {
-      require(['../../pages/about-money-business/pay-for-goods.page'], resolve)
+      require(['../../oldPages/about-money-business/pay-for-goods.page'], resolve)
     }
   },
   // 游戏付款页面
   '/pay-for-game/:tradeNo/:taoBi/:number': {
     name: 'pay-for-game',
     component: function (resolve) {
-      require(['../../pages/about-money-business/pay-for-game.page'], resolve)
+      require(['../../oldPages/about-money-business/pay-for-game.page'], resolve)
     }
   },
   // 直接使用淘币支付
@@ -27,21 +27,21 @@ export default {
     name: 'confirm-my-order',
     component: function (resolve) {
       // dr 付款页面
-      require(['../../pages/about-money-business/confirm-my-order.page'], resolve)
+      require(['../../oldPages/about-money-business/confirm-my-order.page'], resolve)
     }
   },
   // 支付成功的回调页面
   '/pay/return/:id': {
     name: 'pay-return',
     component: function (resolve) {
-      require(['../../pages/about-money-business/pay-return.page'], resolve)
+      require(['../../oldPages/about-money-business/pay-return.page'], resolve)
     }
   },
   //充值明细页面
   '/personal/recharge-details': {
     name: 'recharge-details',
     component: function (resolve) {
-      require(['../../pages/about-money-business/recharge-details.page'], resolve)
+      require(['../../oldPages/about-money-business/recharge-details.page'], resolve)
     }
   }
 };

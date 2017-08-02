@@ -4,35 +4,35 @@ export default {
   '/dr-participate-detail/:id': {
     name: 'participate-detail',
     component: function (resolve) {
-      require(['../../pages/about-goods/participate-detail.page'], resolve)
+      require(['../../oldPages/about-goods/participate-detail.page'], resolve)
     }
   },
   // 详情页
   '/details/:id': {
     name: 'goods-detail',
     component: function (resolve) {
-      require(['../../pages/about-goods/details.page'], resolve)
+      require(['../../oldPages/about-goods/details.page'], resolve)
     }
   },
   // dr 分区商品的详情
   '/dr-subarea-detail/:id': {
     name: 'subarea-detail',
     component: function (resolve) {
-      require(['../../pages/about-goods/subarea-detail.page'], resolve)
+      require(['../../oldPages/about-goods/subarea-detail.page'], resolve)
     }
   },
   // dr 分区玩法介绍
   '/dr-subarea-play-intro': {
     name: 'subarea-play-intro',
     component: function (resolve) {
-      require(['../../pages/about-goods/subarea-play-intro.page'], resolve)
+      require(['../../oldPages/about-goods/subarea-play-intro.page'], resolve)
     }
   },
   // dr 分区商品历史走势
   '/dr-history-reward/:id': {
     name: 'history-reward',
     component: function (resolve) {
-      require(['../../pages/about-goods/history-reward.page'], resolve)
+      require(['../../oldPages/about-goods/history-reward.page'], resolve)
     }
   },
   // 虚拟卡使用说明
@@ -40,14 +40,14 @@ export default {
     name: 'intro-virtual-card',
     component: function (resolve) {
       // dr 商品的参与详情
-      require(['../../pages/about-goods/phone-card-intro.page'], resolve)
+      require(['../../oldPages/about-goods/phone-card-intro.page'], resolve)
     }
   },
   // dr 付款页面
   '/goods-graphic-details/:id': {
     name: 'goods-graphic-details',
     component: function (resolve) {
-      require(['../../pages/about-goods/goods-graphic-details.page'], resolve)
+      require(['../../oldPages/about-goods/goods-graphic-details.page'], resolve)
     }
   },
   // 商品的确认
@@ -55,7 +55,7 @@ export default {
     name: 'confirm-goods',
     component: function (resolve) {
       // dr 晒单
-      require(['../../pages/about-goods/confirm-goods.page'], resolve)
+      require(['../../oldPages/about-goods/confirm-goods.page'], resolve)
     }
   }
 };

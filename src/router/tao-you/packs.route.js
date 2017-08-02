@@ -9,7 +9,7 @@ const router = [
     path: '/tao-you/packs/packs-details/:id',
     name: 'TaoYouPacksDetails',
     component(resolve) {
-      require(['../../pages/tao-you/packs/packs-details/index.page.vue'], resolve);
+      require(['../../oldPages/tao-you/packs/packs-details/index.page.vue'], resolve);
     },
   },
   {
@@ -17,7 +17,7 @@ const router = [
     path: '/tao-you/packs/packs-result/:id',
     name: 'TaoYouPacksResult',
     component(resolve) {
-      require(['../../pages/tao-you/packs/packs-result/index.page.vue'], resolve);
+      require(['../../oldPages/tao-you/packs/packs-result/index.page.vue'], resolve);
     },
   },
 ];

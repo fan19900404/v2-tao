@@ -8,7 +8,7 @@ let router = {
   '/publish':{
   name:'announce-index',
   component:function (resolve) {
-    require(['../../pages/about-announcement/index.page'],resolve)
+    require(['../../oldPages/about-announcement/index.page'],resolve)
   }
  },
 
@@ -16,7 +16,7 @@ let router = {
  // "/goods-graphic-details/:id": {
  //    name: 'goods-graphic-details',
  //    component: function (resolve) {
- //      require(['../../pages/about-announcement/picture-detail.page'], resolve)
+ //      require(['../../oldPages/about-announcement/picture-detail.page'], resolve)
  //    }
  //  },
 
@@ -25,7 +25,7 @@ let router = {
 		name: 'reckonList',
 		component: function (resolve) {
 			// dr 已经揭晓列表
-			require(['../../pages/about-announcement/pre-announce.page'], resolve)
+			require(['../../oldPages/about-announcement/pre-announce.page'], resolve)
 		}
 	},
 
@@ -33,7 +33,7 @@ let router = {
  "/reckon/:goodsNumId": {
 		name: 'reckon',
 		component: function (resolve) {
-      		require(['../../pages/about-announcement/calc-detail.page'], resolve)
+      		require(['../../oldPages/about-announcement/calc-detail.page'], resolve)
     	}
 	},
 
@@ -41,7 +41,7 @@ let router = {
   "/resultText": {
 		name: 'resultText',
 		component: function (resolve){
-			require(['../../pages/about-announcement/calc-rule.page'], resolve)
+			require(['../../oldPages/about-announcement/calc-rule.page'], resolve)
 		}
 	}
 }

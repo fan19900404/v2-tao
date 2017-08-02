@@ -1,7 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import pageMap from '../pages/tao-you/statistics/page-map';
+import pageMap from '../oldPages/tao-you/statistics/page-map';
 import routers from './router';
+import homeRouter from './home';
 
 Vue.use(Router);
 
@@ -21,6 +22,7 @@ const router = new Router({
       redirect: '/tao-you',
     },
     ...routers,
+    ...homeRouter,
   ],
 });
 

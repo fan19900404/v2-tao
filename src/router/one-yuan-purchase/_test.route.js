@@ -5,7 +5,7 @@ export default {
   '/test': {
     name: 'test',
     component: function (resolve) {
-      require(['../../pages/_demo/demo.page'], resolve)
+      require(['../../oldPages/_demo/demo.page'], resolve)
     }
   }
 };

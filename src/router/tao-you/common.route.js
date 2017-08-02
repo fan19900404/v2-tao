@@ -7,7 +7,7 @@ let router = {
   //首页
   //'/tao-you/': {
   //  component: function(resolve) {
-  //    require(['../../pages/tao-you/home/index.page'], resolve);
+  //    require(['../../oldPages/tao-you/home/index.page'], resolve);
   //  }
   //}
 };

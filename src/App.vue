@@ -13,11 +13,16 @@
 <script>
 import Vue from 'vue';
 import { mapState, mapActions } from 'vuex';
-import Reward from './components/feature/about-home/reward.component';
-import RegCompleteDialog from './components/tao-you/reg/regcomplete.component';
-import TwoDialog from './components/tao-you/dialog/two-buttons-link-dialog.component';
+import Reward from './oldComponents/feature/about-home/reward.component';
+import RegCompleteDialog from './oldComponents/tao-you/reg/regcomplete.component';
+import TwoDialog from './oldComponents/tao-you/dialog/two-buttons-link-dialog.component';
 // 一个按钮的弹窗
-import OneButtonDialog from './components/tao-you/dialog/one-button-link-dialog.component';
+import OneButtonDialog from './oldComponents/tao-you/dialog/one-button-link-dialog.component';
+
+import flexbox from './util/flexbox';
+// 定义页面rem的font-size
+flexbox();
+window.onresize = flexbox;
 
 export default {
   name: 'app',

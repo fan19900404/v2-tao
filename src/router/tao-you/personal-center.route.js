@@ -7,7 +7,7 @@ const router = [
     path: '/tao-you/demo',
     name: 'Demo',
     component(resolve) {
-      require(['../../pages/_demo/demo.page'], resolve);
+      require(['../../oldPages/_demo/demo.page'], resolve);
     },
   },
   {
@@ -15,7 +15,7 @@ const router = [
     path: '/tao-you/personal-center',
     name: 'TaoYouPersonalCenter',
     component(resolve) {
-      require(['../../pages/tao-you/personal-center/index.page'], resolve);
+      require(['../../oldPages/tao-you/personal-center/index.page'], resolve);
     },
   },
 
@@ -24,7 +24,7 @@ const router = [
     path: '/tao-you/personal-center/service',
     name: 'Service',
     component(resolve) {
-      require(['../../pages/tao-you/personal-center/service.page'], resolve);
+      require(['../../oldPages/tao-you/personal-center/service.page'], resolve);
     },
   },
   {
@@ -32,7 +32,7 @@ const router = [
     path: '/tao-you/personal-center/user-info',
     name: 'UserInfo',
     component(resolve) {
-      require(['../../pages/tao-you/personal-center/user-info.page'], resolve);
+      require(['../../oldPages/tao-you/personal-center/user-info.page'], resolve);
     },
   },
   {
@@ -40,7 +40,7 @@ const router = [
     path: '/tao-you/personal-center/bind-phone',
     name: 'Bindphone',
     component(resolve) {
-      require(['../../pages/tao-you/personal-center/bind-phone.page'], resolve);
+      require(['../../oldPages/tao-you/personal-center/bind-phone.page'], resolve);
     },
   },
   {
@@ -48,7 +48,7 @@ const router = [
     path: '/tao-you/personal-center/update-nickname',
     name: 'UpdateNickname',
     component(resolve) {
-      require(['../../pages/tao-you/personal-center/update-nickname.page'], resolve);
+      require(['../../oldPages/tao-you/personal-center/update-nickname.page'], resolve);
     },
   },
   {
@@ -56,7 +56,7 @@ const router = [
     path: '/tao-you/personal-center/rebate',
     name: 'TaoYouPersonalCenterRebate',
     component(resolve) {
-      require(['../../pages/tao-you/personal-center/rebate.page'], resolve);
+      require(['../../oldPages/tao-you/personal-center/rebate.page'], resolve);
     },
   },
   {
@@ -64,7 +64,7 @@ const router = [
     path: '/tao-you/personal-center/rebate-explain',
     name: 'TaoYouPersonalCenterRebateExplain',
     component(resolve) {
-      require(['../../pages/tao-you/personal-center/rebate-explain.page'], resolve);
+      require(['../../oldPages/tao-you/personal-center/rebate-explain.page'], resolve);
     },
   },
   {
@@ -72,7 +72,7 @@ const router = [
     path: '/tao-you/personal-center/taobi',
     name: 'TaoYouPersonalCenterTaoBi',
     component(resolve) {
-      require(['../../pages/tao-you/personal-center/taobi.page'], resolve);
+      require(['../../oldPages/tao-you/personal-center/taobi.page'], resolve);
     },
   },
   {
@@ -80,7 +80,7 @@ const router = [
     path: '/tao-you/personal-center/my-game',
     name: 'TaoYouPersonalCenterMyPage',
     component(resolve) {
-      require(['../../pages/tao-you/personal-center/my-game.page'], resolve);
+      require(['../../oldPages/tao-you/personal-center/my-game.page'], resolve);
     },
   },
   {
@@ -88,7 +88,7 @@ const router = [
     path: '/tao-you/personal-center/game-rule',
     name: 'TaoYouPersonalCenterGameRule',
     component(resolve) {
-      require(['../../pages/tao-you/personal-center/game-rule.page'], resolve);
+      require(['../../oldPages/tao-you/personal-center/game-rule.page'], resolve);
     },
   },
   {
@@ -96,7 +96,7 @@ const router = [
     path: '/tao-you/personal-center/game-ranking/:id',
     name: 'TaoYouPersonalCenterGameRanking',
     component(resolve) {
-      require(['../../pages/tao-you/personal-center/game-ranking.page'], resolve);
+      require(['../../oldPages/tao-you/personal-center/game-ranking.page'], resolve);
     },
   },
   {
@@ -104,7 +104,7 @@ const router = [
     path: '/tao-you/personal-center/taodou-match',
     name: 'TaoYouPersonalCenterTaodouMatch',
     component(resolve) {
-      require(['../../pages/tao-you/personal-center/taodou-match.page'], resolve);
+      require(['../../oldPages/tao-you/personal-center/taodou-match.page'], resolve);
     },
   },
   {
@@ -112,7 +112,7 @@ const router = [
     path: '/tao-you/personal-center/pay-for-taobi',
     name: 'TaoYouPersonalCenterPayForTaoBi',
     component(resolve) {
-      require(['../../pages/tao-you/personal-center/pay-for-taobi.page'], resolve);
+      require(['../../oldPages/tao-you/personal-center/pay-for-taobi.page'], resolve);
     },
   },
   {
@@ -120,7 +120,7 @@ const router = [
     path: '/tao-you/personal-center/notice',
     name: 'TaoYouPersonalCenterNotice',
     component(resolve) {
-      require(['../../pages/tao-you/personal-center/notice.page'], resolve);
+      require(['../../oldPages/tao-you/personal-center/notice.page'], resolve);
     },
   },
   {
@@ -128,7 +128,7 @@ const router = [
     path: '/tao-you/personal-center/notice/:id',
     name: 'TaoYouPersonalCenterNoticeDetail',
     component(resolve) {
-      require(['../../pages/tao-you/personal-center/notice-detail.page'], resolve);
+      require(['../../oldPages/tao-you/personal-center/notice-detail.page'], resolve);
     },
   },
 ];

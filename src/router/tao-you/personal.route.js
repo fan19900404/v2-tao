@@ -12,7 +12,7 @@ var router = {
   //  name: 'tao-you-personal',
   //  component: function(resolve) {
   //    //个人中心首页
-  //    require(['../../pages/personal/index.page'], resolve);
+  //    require(['../../oldPages/personal/index.page'], resolve);
   //  }
   //}
 };
@@ -22,7 +22,7 @@ var router = {
 //  router[name] = {
 //    name: name,
 //    component: function(resolve) {
-//      require(['../../pages/personal/' + page + '.page'], resolve);
+//      require(['../../oldPages/personal/' + page + '.page'], resolve);
 //    }
 //  }
 //});
