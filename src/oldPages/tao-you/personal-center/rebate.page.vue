@@ -18,7 +18,7 @@
                 <p class="ticket_reqire">{{ticket.remark}}</p>
                 <p class="ticket_date">有效期至{{ticket.endTime}}</p>
                 <p class="ticket_remark">可使用</p>
-                <img class="ticket_bg" src="/static/images/tao-you/personal-center/unuse-bg.png">
+                <img class="ticket_bg" src="/oldStatic/images/tao-you/personal-center/unuse-bg.png">
               </li>
               <li v-if="ticket.status==1" class="ticket_used ticket" :key="index">
                 <p class="ticket_value">{{ticket.prize}}</p>
@@ -26,7 +26,7 @@
                 <p class="ticket_reqire">{{ticket.remark}}</p>
                 <p class="ticket_date">有效期至{{ticket.endTime}}</p>
                 <p class="ticket_remark">已使用</p>
-                <img class="ticket_bg" src="/static/images/tao-you/personal-center/use-bg.png">
+                <img class="ticket_bg" src="/oldStatic/images/tao-you/personal-center/use-bg.png">
               </li>
               <li v-if="ticket.status==2" class="ticket_used ticket" :key="index">
                 <p class="ticket_value">{{ticket.prize}}</p>
@@ -34,7 +34,7 @@
                 <p class="ticket_reqire">{{ticket.remark}}</p>
                 <p class="ticket_date">有效期至{{ticket.endTime}}</p>
                 <p class="ticket_remark">已过期</p>
-                <img class="ticket_bg" src="/static/images/tao-you/personal-center/used-bg.png">
+                <img class="ticket_bg" src="/oldStatic/images/tao-you/personal-center/used-bg.png">
               </li>
             </template>
           </ul>
@@ -325,11 +325,11 @@ export default {
 }
 
 .ticket_used {
-  background-image: url('/static/images/tao-you/personal-center/ticket-used.png');
+  background-image: url('/oldStatic/images/tao-you/personal-center/ticket-used.png');
 }
 
 .ticket_unused {
-  background-image: url('/static/images/tao-you/personal-center/ticket-unuse.png');
+  background-image: url('/oldStatic/images/tao-you/personal-center/ticket-unuse.png');
 }
 
 .ticket_value {

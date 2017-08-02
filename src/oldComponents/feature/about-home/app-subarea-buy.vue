@@ -206,7 +206,7 @@
   }
   .sold-out {
     background-color: #f1f1f1;
-    background-image: url('/static/images/sold-out.png');
+    background-image: url('/oldStatic/images/sold-out.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -225,7 +225,7 @@
     border-radius: 50%;
     top: .2rem;
     right: .2rem;
-    background-image: url('/static/images/subarea-buy-active.png');
+    background-image: url('/oldStatic/images/subarea-buy-active.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;

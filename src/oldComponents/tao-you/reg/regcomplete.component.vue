@@ -92,7 +92,7 @@ export default {
   justify-content: center;
   width: 2.9rem;
   height: 3.73rem;
-  background: url('/static/images/tao-you/user-action/reg/bg2.png') no-repeat;
+  background: url('/oldStatic/images/tao-you/user-action/reg/bg2.png') no-repeat;
   background-size: contain;
   margin-left: .15rem;
   margin-right: .15rem;
@@ -105,7 +105,7 @@ export default {
     left: 2.685rem;
     width: .26rem;
     height: .26rem;
-    background: url('/static/images/tao-you/user-action/reg/close.png') no-repeat;
+    background: url('/oldStatic/images/tao-you/user-action/reg/close.png') no-repeat;
     background-size: cover;
   }
 

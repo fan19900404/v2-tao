@@ -6,20 +6,20 @@ export default [
     path: '/',
     redirect: '/tao-you',
   },
-  // {
-  //   // 首页
-  //   name: 'TaoYouHome',
-  //   path: '/tao-you',
-  //   component(resolve) {
-  //     require.ensure(
-  //       [],
-  //       () => {
-  //         resolve(require('../pages/home/index/index.vue'));
-  //       },
-  //       'TaoYouHome',
-  //     );
-  //   },
-  // },
+  {
+    // 首页
+    name: 'TaoYouHome',
+    path: '/tao-you',
+    component(resolve) {
+      require.ensure(
+        [],
+        () => {
+          resolve(require('../pages/home/index/index.vue'));
+        },
+        'TaoYouHome',
+      );
+    },
+  },
   // {
   //   // 资讯详情页
   //   name: 'TaoYouNewsDetail',
@@ -28,7 +28,7 @@ export default [
   //     require.ensure(
   //       [],
   //       () => {
-  //         resolve(require('../oldPages/home/newsDetail/index.vue'));
+  //         resolve(require('../pages/home/newsDetail/index.vue'));
   //       },
   //       'TaoYouNewsDetail',
   //     );
@@ -42,7 +42,7 @@ export default [
   //     require.ensure(
   //       [],
   //       () => {
-  //         resolve(require('../oldPages/home/original/index.vue'));
+  //         resolve(require('../pages/home/original/index.vue'));
   //       },
   //       'TaoYouOriginalNews',
   //     );

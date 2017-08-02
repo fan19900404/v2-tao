@@ -2,7 +2,7 @@
 .no {
   width:100%;
   height:27rem;
-  background:url("../../../static/images/personal/perbg.png") no-repeat center;
+  background:url("../../../oldStatic/images/personal/perbg.png") no-repeat center;
   position:absolute;
   top:50%;
   margin-top:-13rem;

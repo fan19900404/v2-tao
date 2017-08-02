@@ -25,8 +25,9 @@ function screenWidth() {
 /**
  * 计算根的font-size
  *
+ * @param {number} [multiple=1] 放大倍数
  */
-const flexBox = () => {
+const flexBox = (multiple=1) => {
   /** {number} 浏览器窗口宽度 */
   const width = screenWidth();
   let fontSize = width / 7.5;
@@ -34,7 +35,7 @@ const flexBox = () => {
     // pc端也是按照小屏幕显示
     fontSize = 50;
   }
-  fontSize *= 2;
+  fontSize *= multiple;
   document.documentElement.style.fontSize = `${fontSize}px`;
   modifileRootRem();
 };

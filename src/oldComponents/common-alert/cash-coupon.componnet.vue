@@ -237,7 +237,7 @@ export default {
 }
 
 .coupon-select__img--active {
-  background-image: url('/static/images/oldComponents/alert/checked.png');
+  background-image: url('/oldStatic/images/oldComponents/alert/checked.png');
   background-size: 100% 100%;
   background-position: center;
 }

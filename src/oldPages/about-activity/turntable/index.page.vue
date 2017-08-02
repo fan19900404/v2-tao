@@ -66,9 +66,9 @@
         actID: this.$route.query.actID,
         width: window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth,
         height: window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight,
-        // turntableNormalUrl: '/static/images/activity/turntable/turntable-core-normal.jpg',
-        // turntableActiveUrl: '/static/images/activity/turntable/turntable-core-active.jpg',
-        // turntableUrl: '/static/images/activity/turntable/turntable-core-normal.jpg',
+        // turntableNormalUrl: '/oldStatic/images/activity/turntable/turntable-core-normal.jpg',
+        // turntableActiveUrl: '/oldStatic/images/activity/turntable/turntable-core-active.jpg',
+        // turntableUrl: '/oldStatic/images/activity/turntable/turntable-core-normal.jpg',
         running: false,
         showAlert: false, // 弹框
         show: false,  // 遮罩
@@ -143,7 +143,7 @@
       }
     },
     created(){
-      new Image().src = "/static/images/activity/turntable/turntable-core-active.jpg";
+      new Image().src = "/oldStatic/images/activity/turntable/turntable-core-active.jpg";
     },
     mounted() {
       let _this = this;
@@ -207,14 +207,14 @@
     background-color: #ee1e1f;
   }
   .turntable-intro {
-    background-image: url('/static/images/activity/turntable/turntable-intro.jpg');
+    background-image: url('/oldStatic/images/activity/turntable/turntable-intro.jpg');
     background-position: 100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .turntable-core {
     position: relative;
-    background-image: url('/static/images/activity/turntable/turntable-core-normal.jpg');
+    background-image: url('/oldStatic/images/activity/turntable/turntable-core-normal.jpg');
     background-position: 100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -291,7 +291,7 @@
   .rule .circle .arrow{
     width: 1.65rem;
     height: 0.85rem;
-    background-image: url('/static/images/activity/turntable/arrow-down.png');
+    background-image: url('/oldStatic/images/activity/turntable/arrow-down.png');
     background-position: 100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -301,7 +301,7 @@
   .turntable-inner {
     position: absolute;
     border-radius: 50%;
-    background-image: url('/static/images/activity/turntable/lucky-gift.png');
+    background-image: url('/oldStatic/images/activity/turntable/lucky-gift.png');
     background-position: 100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -310,7 +310,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: url('/static/images/activity/turntable/start.png');
+    background-image: url('/oldStatic/images/activity/turntable/start.png');
     background-position: 100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -322,7 +322,7 @@
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    background-image: url('/static/images/activity/turntable/arrow.png');
+    background-image: url('/oldStatic/images/activity/turntable/arrow.png');
     background-position: 100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -344,8 +344,8 @@
     // animation: bcAnimation 0.5s linear forwards 5 normal;
   }
   @keyframes bcAnimation{
-    0 { background-image: url('/static/images/activity/turntable/turntable-core-normal.jpg'); }
-    50% { background-image: url('/static/images/activity/turntable/turntable-core-active.jpg'); }
-    100% { background-image: url('/static/images/activity/turntable/turntable-core-normal.jpg'); }
+    0 { background-image: url('/oldStatic/images/activity/turntable/turntable-core-normal.jpg'); }
+    50% { background-image: url('/oldStatic/images/activity/turntable/turntable-core-active.jpg'); }
+    100% { background-image: url('/oldStatic/images/activity/turntable/turntable-core-normal.jpg'); }
   }
 </style>

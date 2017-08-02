@@ -14,7 +14,7 @@
   background-color: #00c1b3;
   border-radius: 50%;
   text-align: center;
-  /*background-image:url(/static/images/oldComponents/tao-you/button/goback.png);*/
+  /*background-image:url(/oldStatic/images/oldComponents/tao-you/button/goback.png);*/
   background-position: center .05rem;
   background-repeat: no-repeat;
   background-size: 50%;

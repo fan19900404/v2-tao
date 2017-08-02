@@ -54,19 +54,19 @@
                 type: 'back',
                 title: '淘游客服',
                 list:[{
-                        "avator":"/static/images/personal/s-head.jpg",
+                        "avator":"/oldStatic/images/personal/s-head.jpg",
                         "qq":"888888",
                         "name":"小二",
                         "id":"5"
                       },
                       {
-                        "avator":"/static/images/personal/s-head.jpg",
+                        "avator":"/oldStatic/images/personal/s-head.jpg",
                         "qq":"888889",
                         "name":"小四",
                         "id":"6"
                       },
                       {
-                        "avator":"/static/images/personal/s-head.jpg",
+                        "avator":"/oldStatic/images/personal/s-head.jpg",
                         "qq":"888887",
                         "name":"小五",
                         "id":"7"

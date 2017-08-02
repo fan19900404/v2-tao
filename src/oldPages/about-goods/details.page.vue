@@ -247,7 +247,7 @@
     /*left: -2.1rem;*/
     top: 1rem;
     left: 1rem;
-    background-image: url('/static/images/new-subarea-icon.png');
+    background-image: url('/oldStatic/images/new-subarea-icon.png');
     background-size: 100% 100%;
     background-position: center;
   }
@@ -257,7 +257,7 @@
     position: absolute;
     top: 1rem;
     left: 1rem;
-    background-image: url('/static/images/index/10.png');
+    background-image: url('/oldStatic/images/index/10.png');
     background-size: 100% 100%;
     background-position: center;
   }
@@ -334,7 +334,7 @@
               <!-- <p class="p-detail">揭晓时间: {{goods.luckPerson.luckTime | formatDate 'YYYY-MM-DD hh:mm:ss'}}</p> -->
               <p class="p-detail">揭晓时间: {{goods.showLuckTime2}}
             </div>
-            <img class="luck-logo" src="/static/images/goods-detail-lucky-logo.png">
+            <img class="luck-logo" src="/oldStatic/images/goods-detail-lucky-logo.png">
           </div>
           <div class="luck-count dr-flex">
             <div class="luck-num flex-1">

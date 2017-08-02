@@ -717,7 +717,7 @@
         background-size: 100% 100%;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url('/static/images/game-center/h5-btn-active.png');
+        background-image: url('/oldStatic/images/game-center/h5-btn-active.png');
       }
       .btn-normal {
         color: $black;
@@ -754,13 +754,13 @@
         }
         /* 游戏排名的样式 */
         .badge-gold {
-          background-image: url('/static/images/game-center/badge-gold.png');
+          background-image: url('/oldStatic/images/game-center/badge-gold.png');
         }
         .badge-silvery {
-          background-image: url('/static/images/game-center/badge-silvery.png');
+          background-image: url('/oldStatic/images/game-center/badge-silvery.png');
         }
         .badge-bronze {
-          background-image: url('/static/images/game-center/badge-bronze.png');
+          background-image: url('/oldStatic/images/game-center/badge-bronze.png');
         }
       }
       &__all-img-container {

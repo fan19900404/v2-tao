@@ -2,7 +2,7 @@
   <div v-if = "isShow" class="mask" transition="action">
       <div class ="about-alert">
         <div class ="about-alert-head" >心动吗？</div>
-        <div class ="about-alert-img"><img src="../../../../../static/images/activity/turntable/20161208.png"></div>
+        <div class ="about-alert-img"><img src="../../../../../oldStatic/images/activity/turntable/20161208.png"></div>
         <p>已经有<span>{{count}}</span>人获得 “<span>iPhone7</span>”<p>
         <button @click="goIndex">心动</button>
         <div @click="nowant" class ="about-button"><div class="button1"></div><div class="button2"></div></div>
@@ -37,7 +37,7 @@
     line-height: 7rem;
     font-size: 2.6rem;
     font-weight: bold;
-    background-image:url("../../../../../static/images/activity/turntable/201612008.png");
+    background-image:url("../../../../../oldStatic/images/activity/turntable/201612008.png");
     color: #fff;
 }
 .about-alert-img{

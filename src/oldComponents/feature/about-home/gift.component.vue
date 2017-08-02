@@ -35,7 +35,7 @@
     margin-top: -8rem;
     height: 38.7rem;
     width: 100%;
-    background-image: url('/static/images/index/gift.png');
+    background-image: url('/oldStatic/images/index/gift.png');
     background-size: 100% 100%;
     background-position: center;
   }
@@ -43,7 +43,7 @@
     width: 52%;
     height: 4.8rem;
     margin-bottom: 2.25rem;
-    background-image: url('/static/images/index/gift-btn.png');
+    background-image: url('/oldStatic/images/index/gift-btn.png');
     background-size: 100% 100%;
     background-position: center;
   }
@@ -51,7 +51,7 @@
     margin-bottom: 1.5rem;
     height: 5.6rem;
     width: 47.2%;
-    background-image: url('/static/images/index/gift-coupon.png');
+    background-image: url('/oldStatic/images/index/gift-coupon.png');
     background-size: 100% 100%;
     background-position: center;
     justify-content: center;
@@ -91,7 +91,7 @@
     height: 3rem;
     border: none;
     outline: none;
-    background-image: url('/static/images/index/gift-close.png');
+    background-image: url('/oldStatic/images/index/gift-close.png');
     background-size: 95% 95%;
     background-position: center;
     background-repeat: no-repeat;

@@ -59,7 +59,7 @@
     <app-header :title="支付成功"></app-header>
     <section class="tips">
       <template v-if="orderPayInfo.payStatus == -1">
-        <img src="/static/images/loading.gif" class="loading">
+        <img src="/oldStatic/images/loading.gif" class="loading">
         <p class="t">支付请求中</p>
       </template>
       <template v-else>

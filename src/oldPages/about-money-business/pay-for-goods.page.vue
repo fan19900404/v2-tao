@@ -111,7 +111,7 @@
   }
   .agree-check-active {
     border: 1px solid #ff4a4a;
-    background-image: url('/static/images/pay-check.png');
+    background-image: url('/oldStatic/images/pay-check.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

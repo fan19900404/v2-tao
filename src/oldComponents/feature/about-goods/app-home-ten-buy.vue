@@ -201,7 +201,7 @@
     right: 0;
     bottom: 0;
     margin: auto;
-    background-image: url('/static/images/close.png');
+    background-image: url('/oldStatic/images/close.png');
     background-size: cover;
     background-repeat: no-repeat;
   }

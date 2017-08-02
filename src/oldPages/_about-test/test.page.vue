@@ -88,7 +88,7 @@
     text-align: center;
     font-size: 1.3rem;
     color: #898989;
-    background: url(/static/images/norecord_bg.png) no-repeat top center;
+    background: url(/oldStatic/images/norecord_bg.png) no-repeat top center;
     padding-top: 20rem;
     background-size: cover;
   }
@@ -154,10 +154,10 @@
         noData: false,
         // 仿照微信的轮播
         a: [
-          '/static/images/step-4.png',
-          '/static/images/step-1.png',
-          '/static/images/step-2.png',
-          '/static/images/step-3.png'
+          '/oldStatic/images/step-4.png',
+          '/oldStatic/images/step-1.png',
+          '/oldStatic/images/step-2.png',
+          '/oldStatic/images/step-3.png'
         ],
         parentIndex: -1,
         isShow: false

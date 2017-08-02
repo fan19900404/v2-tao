@@ -105,7 +105,7 @@
   }
   .reward {
     margin: 0 3.2rem;
-    background-image: url('/static/images/index/reward.png');
+    background-image: url('/oldStatic/images/index/reward.png');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;

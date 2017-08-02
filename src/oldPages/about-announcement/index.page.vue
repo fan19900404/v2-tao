@@ -15,7 +15,7 @@
     display: block;
     width: 2.2rem;
     height: 2.2rem;
-    background: url(/static/images/new-subarea-icon.png) no-repeat center center;
+    background: url(/oldStatic/images/new-subarea-icon.png) no-repeat center center;
     background-size: cover;
     position: absolute;
     left: 0;
@@ -56,7 +56,7 @@
     text-align: center;
     font-size: 1.3rem;
     color: #898989;
-    background: url(/static/images/norecord_bg.png) no-repeat top center;
+    background: url(/oldStatic/images/norecord_bg.png) no-repeat top center;
     padding-top: 20rem;
     background-size: cover;
   }

@@ -61,7 +61,7 @@
         </div>
       </div>
       <p class="step-title">某期商品即将开始夺宝时，将预算好与商品价值相等的等份夺宝号码；（以100元移动充值卡为例）</p>
-      <img class="step-img" src="/static/images/step-1.png">
+      <img class="step-img" src="/oldStatic/images/step-1.png">
     </div>
     <!-- 2 -->
     <div class="step">
@@ -73,7 +73,7 @@
         </div>
       </div>
       <p class="step-title">分区玩法中，系统会根据号码大小，依次将商品夺宝号平均分成10个区；(例1张电话卡分成120份，10个区，如下图所示)</p>
-      <img class="step-img" src="/static/images/step-2.png">
+      <img class="step-img" src="/oldStatic/images/step-2.png">
     </div>
     <!-- 3 -->
     <div class="step">
@@ -85,7 +85,7 @@
         </div>
       </div>
       <p class="step-title">你可以选择购买多个未被占用的夺宝分区，每购买一个分区则将包断该分区内的全部夺宝号码；</p>
-      <img class="step-img" src="/static/images/step-3.png">
+      <img class="step-img" src="/oldStatic/images/step-3.png">
     </div>
     <!-- 4 -->
     <div class="step">
@@ -97,7 +97,7 @@
         </div>
       </div>
       <p class="step-title">开奖时，会根据中奖号码的分区归属，确定中奖的分区；</p>
-      <img class="step-img" src="/static/images/step-4.png">
+      <img class="step-img" src="/oldStatic/images/step-4.png">
     </div>
     <!-- 5 -->
     <div class="step">
@@ -109,7 +109,7 @@
         </div>
       </div>
       <p class="step-title">为了提高您的中奖概念，我们还为您提供了往期开奖走势图，供您参考。</p>
-      <img class="step-img" src="/static/images/step-5.png">
+      <img class="step-img" src="/oldStatic/images/step-5.png">
     </div>
   </div>
 

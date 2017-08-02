@@ -159,7 +159,7 @@
     height: .10rem;
     width: .10rem;
     color: #a5a5a5;
-    background-image: url("/static/images/tao-you/welfare-shop/welfare-t.png");
+    background-image: url("/oldStatic/images/tao-you/welfare-shop/welfare-t.png");
     background-size: 100% 100%;
   }
   &__count--time {
@@ -168,7 +168,7 @@
     width: .130rem;
     margin-right: 0.03rem;
     color: #a5a5a5;
-    background-image: url("/static/images/tao-you/welfare-shop/welfare-b.png");
+    background-image: url("/oldStatic/images/tao-you/welfare-shop/welfare-b.png");
     background-size: 100% 100%;
   }
   &__count--bg {

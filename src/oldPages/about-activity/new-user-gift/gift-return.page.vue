@@ -53,12 +53,12 @@
   }
 
   .btn-box .btn.continue {
-    background: url(/static/images/newbgift/payreturn_btn1.png) no-repeat center center;
+    background: url(/oldStatic/images/newbgift/payreturn_btn1.png) no-repeat center center;
     background-size: cover;
   }
 
   .btn-box .btn.snatch {
-    background: url(/static/images/newbgift/payreturn_btn2.png) no-repeat center center;
+    background: url(/oldStatic/images/newbgift/payreturn_btn2.png) no-repeat center center;
     background-size: cover;
   }
 </style>
@@ -66,7 +66,7 @@
 <template>
   <app-header :title="'购买壕礼'"></app-header>
   <div class="top-bg">
-    <img src="/static/images/newbgift/payreturn_bg.jpg">
+    <img src="/oldStatic/images/newbgift/payreturn_bg.jpg">
   </div>
   <div class="payreturn-info">
     <template v-if="payStatus==0">

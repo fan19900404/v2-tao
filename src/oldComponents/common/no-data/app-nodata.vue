@@ -21,7 +21,7 @@
 <template>
 	<section class="nodata">
 		<p>
-	      <img class="img" src="/static/images/no-data.png" alt="">
+	      <img class="img" src="/oldStatic/images/no-data.png" alt="">
 	    </p>
 	    <p class="text" v-for=" text in list">
 	    	{{text}}

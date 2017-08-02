@@ -12,20 +12,20 @@ const router = [
       require(['../../oldPages/tao-you/home/news-detail.page'], resolve);
     },
   },
-  {
-    // 我们的首页
-    path: '/',
-    name: 'home',
-    redirect: '/tao-you/',
-  },
-  // 首页
-  {
-    path: '/tao-you/',
-    name: 'TaoYouHome',
-    component(resolve) {
-      require(['../../oldPages/tao-you/home/index.page'], resolve);
-    },
-  },
+  // {
+  //   // 我们的首页
+  //   path: '/',
+  //   name: 'home',
+  //   redirect: '/tao-you/',
+  // },
+  // // 首页
+  // {
+  //   path: '/tao-you/',
+  //   name: 'TaoYouHome',
+  //   component(resolve) {
+  //     require(['../../oldPages/tao-you/home/index.page'], resolve);
+  //   },
+  // },
   {
     // 原创
     path: '/tao-you/original-news',

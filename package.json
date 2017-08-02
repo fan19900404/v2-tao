@@ -14,10 +14,12 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
+    "axios": "^0.16.2",
     "jquery": "^3.2.1",
     "mint-ui": "^2.2.7",
     "moment": "^2.18.1",
     "node-sass": "^4.5.3",
+    "postcss-px2rem": "^0.3.0",
     "sass-loader": "^6.0.6",
     "swiper": "^3.4.2",
     "timeago.js": "^3.0.2",

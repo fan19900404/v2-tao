@@ -9,7 +9,7 @@
         <share-component :bind-style="{display: 'flex', position: 'absolute', top: '.15rem', right: '.15rem'}"></share-component>
       </span>
       <div class="result__img">
-        <img src="/static/images/packs/success_03.png">
+        <img src="/oldStatic/images/packs/success_03.png">
       </div>
 
       <div class="result__text">{{msg}}请长按复制使用</div>
@@ -19,7 +19,7 @@
     </div>
     <div class="result" v-else>
       <div class="result__img">
-        <img src="/static/images/packs/fail_03.png">
+        <img src="/oldStatic/images/packs/fail_03.png">
       </div>
       <!--<div class="result__two" v-if="exchange">兑换失败:{{msg}}</div>-->
       <div class="result__two" v-if="exchange">{{msg}}</div>

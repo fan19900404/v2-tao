@@ -66,11 +66,11 @@
     <my-spinner type="fading-circle"></my-spinner>加载中
   </p>
   <div class="empty_wrapper" v-show="taobiisEmpty && currentList==='taobi'">
-    <img src="/static/images/tao-you/personal-center/withourecord.png">
+    <img src="/oldStatic/images/tao-you/personal-center/withourecord.png">
     <p>您还没有淘币支出记录哦！</p>
   </div>
   <div class="empty_wrapper" v-show="taodouisEmpty && currentList==='taodou'">
-    <img src="/static/images/tao-you/personal-center/withourecord.png">
+    <img src="/oldStatic/images/tao-you/personal-center/withourecord.png">
     <p>您还没有淘豆支出记录哦！</p>
   </div>
 
@@ -128,10 +128,10 @@
     background-position:right .5rem;
   }
   .top_left .val{
-    background-image:url('/static/images/personal/gold2.png');
+    background-image:url('/oldStatic/images/personal/gold2.png');
   }
   .top_right .val{
-    background-image:url('/static/images/personal/gold1.png');
+    background-image:url('/oldStatic/images/personal/gold1.png');
   }
 
   .help_link{

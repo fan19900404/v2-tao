@@ -41,22 +41,22 @@
 	}
 
 	.gift-box ul li .buy-btn.btn1 {
-		background: url(/static/images/newbgift/buy_btn5.png) no-repeat center center;
+		background: url(/oldStatic/images/newbgift/buy_btn5.png) no-repeat center center;
 		background-size: cover;
 	}
 
 	.gift-box ul li .buy-btn.btn2 {
-		background: url(/static/images/newbgift/buy_btn10.png) no-repeat center center;
+		background: url(/oldStatic/images/newbgift/buy_btn10.png) no-repeat center center;
 		background-size: cover;
 	}
 
 	.gift-box ul li .buy-btn.btn3 {
-		background: url(/static/images/newbgift/buy_btn20.png) no-repeat center center;
+		background: url(/oldStatic/images/newbgift/buy_btn20.png) no-repeat center center;
 		background-size: cover;
 	}
 
 	.gift-box ul li .buy-btn.no-btn {
-		background: url(/static/images/newbgift/no_buy_btn.png) no-repeat center center;
+		background: url(/oldStatic/images/newbgift/no_buy_btn.png) no-repeat center center;
 		background-size: cover;
 		font-size: 1.2rem;
 		color: #979797;
@@ -99,7 +99,7 @@
 <template>
 	<app-header :title="'新人享壕礼'"></app-header>
 	<div class="top-bg">
-		<img src="/static/images/newbgift/bg.jpg">
+		<img src="/oldStatic/images/newbgift/bg.jpg">
 		<p class="cd-tips">
 			壕礼将于<span class="hour">{{hour}}</span>小时<span class="min">{{minute}}</span>分<span class="second">{{second}}</span>秒后消失
 		</p>
@@ -107,7 +107,7 @@
 	<div class="gift-box">
 		<ul>
 			<li v-for="item in giftList">
-				<img src="/static/images/newbgift/gift_bg{{item.id}}.png">
+				<img src="/oldStatic/images/newbgift/gift_bg{{item.id}}.png">
 				<a href="javascript:void(0)" class="buy-btn btn{{item.id}}" data-id="item.id" v-if="item.isShow==0" @click="giftBuy(item.id)"></a>
 				<template v-else>
 					<a href="javascript:void(0)" class="buy-btn no-btn" v-if="item.isShow==1">已购买</a>

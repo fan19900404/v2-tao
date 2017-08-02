@@ -50,7 +50,7 @@
           <li v-for="(v,index) in gameHot.gameList" @click.stop="beginPlay(v)" :class="{'swiper-slide':true, 'active':index==0}" :key="index">
             <div class="img-wrapper">
               <img class="swiper-slide__img" :src="v.imgUrl" alt="">
-              <img v-if="v.field == 1" class="swiper-slide__img-h5" src="/static/images/tao-you/home/h5.png" alt="">
+              <img v-if="v.field == 1" class="swiper-slide__img-h5" src="/oldStatic/images/tao-you/home/h5.png" alt="">
             </div>
             <div class="game-name overflow-ellipsis">
               {{v.gameName}}

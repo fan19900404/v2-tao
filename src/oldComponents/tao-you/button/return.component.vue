@@ -13,7 +13,7 @@
   height: .44rem;
   border-radius: 50%;
   text-align: center;
-  background-image: url(/static/images/oldComponents/tao-you/button/goback.png);
+  background-image: url(/oldStatic/images/oldComponents/tao-you/button/goback.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

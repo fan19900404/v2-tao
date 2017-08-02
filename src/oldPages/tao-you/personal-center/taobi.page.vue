@@ -6,7 +6,7 @@
     <!-- 我的淘币顶部 -->
     <div class="top_banner">
       <div class="top_wrapper">
-        <img class="taodoulogo" src="/static/images/tao-you/welfare-shop/taobilogo2.png">
+        <img class="taodoulogo" src="/oldStatic/images/tao-you/welfare-shop/taobilogo2.png">
         <p class="taodoutit">我的淘币</p>
         <p class="taodouval">{{user.taoBi | moneyWidthComma}}</p>
         <a class="recharge align-vertical JS-statistics-charge" @click="link({name: 'TaoYouPersonalCenterPayForTaoBi'})">充值</a>

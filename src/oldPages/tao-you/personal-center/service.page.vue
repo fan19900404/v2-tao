@@ -29,22 +29,22 @@ export default {
       title: '淘游客服',
       list: [
         {
-          avator: '/static/images/personal/s-head.jpg',
+          avator: '/oldStatic/images/personal/s-head.jpg',
           qq: '客服1号 静静QQ 3314210091',
           id: '5',
         },
         {
-          avator: '/static/images/personal/s-head.jpg',
+          avator: '/oldStatic/images/personal/s-head.jpg',
           qq: '客服2号 楠楠QQ 2785767272',
           id: '5',
         },
         {
-          avator: '/static/images/personal/s-head.jpg',
+          avator: '/oldStatic/images/personal/s-head.jpg',
           qq: '客服3号 笑笑QQ 2837625029',
           id: '5',
         },
         {
-          avator: '/static/images/personal/s-head.jpg',
+          avator: '/oldStatic/images/personal/s-head.jpg',
           qq: '客服群号QQ 13585910',
           id: '5',
         },

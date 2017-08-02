@@ -15,7 +15,7 @@ import statistics from './oldPages/tao-you/statistics';
 import addPadStart from './oldPages/tao-you/statistics/utils/padStart';
 
 // 微端自动登录
-import Login from '../static/lib/weClient/login';
+import Login from '../oldStatic/lib/weClient/login';
 
 // toast组件样式
 require('vue-toast-mobile/lib/index.css');

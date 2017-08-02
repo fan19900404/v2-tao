@@ -197,7 +197,7 @@
 
 <style scoped>
   .loading {
-    background-image: url('/static/images/loading.gif');
+    background-image: url('/oldStatic/images/loading.gif');
     height: 3rem;
     background-position: center;
     background-repeat: no-repeat;
@@ -253,7 +253,7 @@
   .coupon-container {
     margin: 1.6rem;
     height: 9.4rem;
-    background-image: url('/static/images/integral-exchange/coupon-bg.png') !important;
+    background-image: url('/oldStatic/images/integral-exchange/coupon-bg.png') !important;
     background-size: 100% 100%;
     background-position: center;
     box-sizing: border-box;

@@ -1,12 +1,12 @@
 <template>
   <div>
     <div class="tit">
-      <img src="/static/images/game-center/game_03.png">
+      <img src="/oldStatic/images/game-center/game_03.png">
     </div>
     <div class="recommendation">
       <div class="recommendation__slide" v-for="v in firstGameData.slice(0,3)">
         <div class="recommendation__img" @click="open(v.field,v.id,v.gameUrl,v.name,v.direction)">
-          <img src="/static/images/tao-you/home/h5.png" id="bg" v-show="v.field ==1">
+          <img src="/oldStatic/images/tao-you/home/h5.png" id="bg" v-show="v.field ==1">
           <img :src="v.gameIcon">
         </div>
         <div class="recommendation__name">{{v.name}}</div>

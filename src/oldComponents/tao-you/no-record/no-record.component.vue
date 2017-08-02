@@ -13,7 +13,7 @@ export default {
   props: {
     img: {
       type: String,
-      default: '/static/images/common/no-record/no-record.png'
+      default: '/oldStatic/images/common/no-record/no-record.png'
     },
     text: {
       type: String,

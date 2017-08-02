@@ -121,22 +121,22 @@ export default {
         {
           link: 'http://www.baidu.com',
           title: '功夫熊猫1',
-          imgUrl: '/static/images/home/game_1.png',
+          imgUrl: '/oldStatic/images/home/game_1.png',
         },
         {
           link: 'http://www.baidu.com',
           title: '功夫熊猫2',
-          imgUrl: '/static/images/home/game_2.png',
+          imgUrl: '/oldStatic/images/home/game_2.png',
         },
         {
           link: 'http://www.baidu.com',
           title: '功夫熊猫3',
-          imgUrl: '/static/images/home/game_3.png',
+          imgUrl: '/oldStatic/images/home/game_3.png',
         },
         {
           link: 'http://www.baidu.com',
           title: '功夫熊猫4',
-          imgUrl: '/static/images/home/game_4.png',
+          imgUrl: '/oldStatic/images/home/game_4.png',
         },
       ];
     }, 600);

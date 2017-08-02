@@ -73,7 +73,7 @@
     <section v-if="visited && notices.length == 0">
       <div class="no-data">
         <div class="img-wrapper">
-          <img src="/static/images/tao-you/personal-center/no-data.png">
+          <img src="/oldStatic/images/tao-you/personal-center/no-data.png">
           <p class="no-data-desc">当前没有消息记录哦！</p>
         </div>
       </div>

@@ -89,19 +89,19 @@
     }
 
     .alipay-logo {
-        background-image: url(/static/images/aliPay.png);
+        background-image: url(/oldStatic/images/aliPay.png);
     }
 
     .union-logo {
-        background-image: url(/static/images/unionPay.png);
+        background-image: url(/oldStatic/images/unionPay.png);
     }
 
     .wechat-logo {
-        background-image: url(/static/images/wechatPay.png);
+        background-image: url(/oldStatic/images/wechatPay.png);
     }
 
     .taobi-logo {
-        background-image: url(/static/images/taobiPay.png);
+        background-image: url(/oldStatic/images/taobiPay.png);
     }
 
 </style>

@@ -6,6 +6,8 @@ import homeRouter from './home';
 
 Vue.use(Router);
 
+
+
 const router = new Router({
   routes: [
     // 重定向
@@ -183,7 +185,7 @@ router.afterEach((to, from, next) => {
         title: '淘游助手', // 分享标题
         link: shareUrl, // 分享链接
         desc: '畅玩游戏领好礼，淘游等你来体验',
-        imgUrl: `${window.location.origin}/static/images/share/tao-you-logo.jpg`,
+        imgUrl: `${window.location.origin}/oldStatic/images/share/tao-you-logo.jpg`,
       };
       // 分享到朋友圈
       wx.onMenuShareTimeline(shareInfo);

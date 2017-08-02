@@ -7,7 +7,7 @@ const state = {
   'isShowAlter': undefined,
   'userId': '',
   'username': '',
-  'avatar': '/static/images/tao-you/personal-center/default-head.png',
+  'avatar': '/oldStatic/images/tao-you/personal-center/default-head.png',
   'bindPhone': '',
   'taoBi': 0,
   'taoDou': 0,

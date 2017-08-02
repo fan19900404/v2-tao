@@ -33,7 +33,7 @@
     <section v-show="!isdata" class="no--data">
       <div class="no--data--con">
         <div class="no--data--img">
-          <img src="/static/images/tao-you/personal-center/nogame_03.jpg">
+          <img src="/oldStatic/images/tao-you/personal-center/nogame_03.jpg">
         </div>
         <p class="am-ft-16 am-ft-lightgray am-ft-center">你当前还没有玩游戏哦</p>
       </div>
